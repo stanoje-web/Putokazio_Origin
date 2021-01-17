@@ -53,7 +53,7 @@ class SveMape : AppCompatActivity() {
            startActivity(intent)
        }
         linuxbt.setOnClickListener {
-            val intent=Intent(this,LinuxuDanas::class.java)
+            val intent=Intent(this,LinuxServeri::class.java)
             startActivity(intent)
         }
 

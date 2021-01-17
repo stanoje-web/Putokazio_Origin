@@ -20,12 +20,12 @@ class TvoracLinuxa : AppCompatActivity() {
             edit.apply{
                 putBoolean("tvoraclinuxa", !savedBoolean2)
             }.apply()
-            val intent = Intent(this,LinuxServeri::class.java)
+            val intent = Intent(this,Olinuxu::class.java)
             intent.putExtra("tvoraclinuxabt",true)
             startActivity(intent)
         }
         back.setOnClickListener {
-            val intent= Intent(this,LinuxServeri::class.java)
+            val intent= Intent(this,Olinuxu::class.java)
             startActivity(intent)
 
         }

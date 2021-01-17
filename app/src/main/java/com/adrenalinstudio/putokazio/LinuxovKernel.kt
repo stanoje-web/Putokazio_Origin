@@ -16,7 +16,7 @@ class LinuxovKernel : AppCompatActivity() {
         val kernel = findViewById<Button>(R.id.button6)
         val back = findViewById<ImageButton>(R.id.imageButton1)
         olinuxu.setOnClickListener {
-            val intent= Intent(this,OLinuxu::class.java)
+            val intent= Intent(this,Olinuxu::class.java)
             startActivity(intent)
         }
         interfejs.setOnClickListener {

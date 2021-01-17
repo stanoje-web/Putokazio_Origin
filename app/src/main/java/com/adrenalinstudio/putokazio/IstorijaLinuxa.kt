@@ -20,12 +20,12 @@ class IstorijaLinuxa : AppCompatActivity() {
             edit.apply{
                 putBoolean("istorijalinuxa", !savedBoolean2)
             }.apply()
-            val intent = Intent(this,LinuxServeri::class.java)
+            val intent = Intent(this,Olinuxu::class.java)
             intent.putExtra("istorijalinuxabt",true)
             startActivity(intent)
         }
         back.setOnClickListener {
-            val intent= Intent(this,LinuxServeri::class.java)
+            val intent= Intent(this,Olinuxu::class.java)
             startActivity(intent)
 
         }

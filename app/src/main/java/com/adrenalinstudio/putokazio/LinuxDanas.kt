@@ -6,10 +6,10 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.ToggleButton
 
-class LinuxuDanas : AppCompatActivity() {
+class LinuxDanas : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_linuxu_danas)
+        setContentView(R.layout.activity_linux_danas)
         val boolean2 =findViewById<ToggleButton>(R.id.toggleButtonDrawable1)
         val sharedPreferences2=getSharedPreferences("sharedPref", MODE_PRIVATE)
         val savedBoolean2=sharedPreferences2.getBoolean("linuxdanas", false)
@@ -20,12 +20,12 @@ class LinuxuDanas : AppCompatActivity() {
             edit.apply{
                 putBoolean("linuxdanas", !savedBoolean2)
             }.apply()
-            val intent = Intent(this,LinuxServeri::class.java)
+            val intent = Intent(this,Olinuxu::class.java)
             intent.putExtra("linuxdanasbt",true)
             startActivity(intent)
         }
         back.setOnClickListener {
-            val intent= Intent(this,LinuxServeri::class.java)
+            val intent= Intent(this,Olinuxu::class.java)
             startActivity(intent)
 
         }

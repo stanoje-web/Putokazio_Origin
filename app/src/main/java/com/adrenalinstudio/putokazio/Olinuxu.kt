@@ -7,10 +7,10 @@ import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
 
-class OLinuxu : AppCompatActivity() {
+class Olinuxu : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_o_linuxu)
+        setContentView(R.layout.activity_olinuxu)
         val sharedPreferences=getSharedPreferences("sharedPref", MODE_PRIVATE)
         val savedBoolean=sharedPreferences.getBoolean("tvoraclinuxa", false)
         val savedBoolean2=sharedPreferences.getBoolean("istorijalinuxa", false)
@@ -23,15 +23,15 @@ class OLinuxu : AppCompatActivity() {
         val linuxuDanasbt=intent.getBooleanExtra("linuxdanasbt",false)
         val imageButton=findViewById<ImageButton>(R.id.imageButton1)
         tvoracLinuxa.setOnClickListener {
-            val intent= Intent(this,tvoracLinuxa::class.java)
+            val intent= Intent(this,TvoracLinuxa::class.java)
             startActivity(intent)
         }
         istorijaLinuxa.setOnClickListener {
-            val intent= Intent(this,istorijaLinuxa::class.java)
+            val intent= Intent(this,IstorijaLinuxa::class.java)
             startActivity(intent)
         }
         linuxDanas.setOnClickListener {
-            val intent= Intent(this,linuxDanas::class.java)
+            val intent= Intent(this,LinuxDanas::class.java)
             startActivity(intent)
         }
 
@@ -54,7 +54,7 @@ class OLinuxu : AppCompatActivity() {
 
         }
         imageButton.setOnClickListener {
-            val intent= Intent(this,androidale::class.java)
+            val intent= Intent(this,LinuxServeri::class.java)
             startActivity(intent)
         }
     }
