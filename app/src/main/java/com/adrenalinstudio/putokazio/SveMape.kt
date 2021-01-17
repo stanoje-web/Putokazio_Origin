@@ -42,15 +42,21 @@ class SveMape : AppCompatActivity() {
         val searchView1=findViewById<SearchView>(R.id.searchView)
         val frontendbut=findViewById<Button>(R.id.button)
         val androidbut=findViewById<Button>(R.id.button1)
+        val linuxbt=findViewById<Button>(R.id.button3)
 
         frontendbut.setOnClickListener {
             val intent=Intent(this, FrontendDevelop::class.java)
             startActivity(intent)
         }
        androidbut.setOnClickListener {
-           val intent2=Intent(this, androidale::class.java)
-           startActivity(intent2)
+           val intent=Intent(this, androidale::class.java)
+           startActivity(intent)
        }
+        linuxbt.setOnClickListener {
+            val intent=Intent(this,LinuxuDanas::class.java)
+            startActivity(intent)
+        }
+
         val sharedPreferences=getSharedPreferences("sharedPref", MODE_PRIVATE)
 
         progressBar1.progress=progr
