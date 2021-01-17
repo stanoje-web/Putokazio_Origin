@@ -4,30 +4,29 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/svijetlatema"
+    android:background="@drawable/ic_pozadina"
+    android:padding="10dp"
     tools:context=".Internet2">
 
     <TextView
         android:id="@+id/textView13"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="7dp"
-        android:fontFamily="@font/montserrat_bold"
+        android:layout_marginTop="11dp"
+        android:fontFamily="@font/poppins_bold"
         android:text="Internet"
         android:textColor="#2A5889"
-        android:textSize="25dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.48"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.01999998" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button1"
         android:layout_width="315dp"
         android:layout_height="55dp"
 
+        android:layout_marginTop="30dp"
         android:fontFamily="@font/open_sans"
         android:text="Kako radi Internet?"
         android:textAllCaps="false"
@@ -36,17 +35,15 @@
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.139"
+        app:layout_constraintTop_toBottomOf="@+id/textView13"
         app:rippleColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button2"
-        android:layout_width="317dp"
-        android:layout_height="56dp"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
         android:fontFamily="@font/open_sans"
 
         android:text="Šta je HTTP?"
@@ -54,53 +51,45 @@
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button1"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button1" />
 
     <Button
         android:id="@+id/button3"
-        android:layout_width="318dp"
-        android:layout_height="80dp"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
         android:fontFamily="@font/open_sans"
 
         android:text="Web čitač i princip rada"
+        android:letterSpacing="0.05"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.511"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button2"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button2" />
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="320dp"
-        android:layout_height="51dp"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
         android:fontFamily="@font/open_sans"
         android:text="DNS i princip rada"
         android:textAllCaps="false"
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button3"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button3" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="312dp"
+        android:layout_width="315dp"
         android:layout_height="55dp"
         android:fontFamily="@font/open_sans"
         android:text="Šta je domen?"
@@ -108,42 +97,34 @@
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button5"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button5" />
 
     <Button
         android:id="@+id/button14"
         android:layout_width="315dp"
-        android:layout_height="51dp"
+        android:layout_height="55dp"
         android:fontFamily="@font/open_sans"
         android:text="Šta je hosting?"
         android:textAllCaps="false"
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/button4"
-        app:layout_constraintVertical_bias="0.0" />
+        app:layout_constraintTop_toBottomOf="@+id/button4" />
 
     <ImageButton
         android:id="@+id/imageButton3"
         android:layout_width="28dp"
         android:layout_height="28dp"
-        android:layout_marginBottom="10dp"
-        android:background="@drawable/back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.04"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_back"
+        android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04000002"
-        app:srcCompat="@drawable/back" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
