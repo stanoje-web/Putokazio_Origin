@@ -32,7 +32,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins_bold"
-            android:text="Tvorac Linuxa"
+            android:text="Istorija Linuxa"
             android:textColor="#2A5889"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
