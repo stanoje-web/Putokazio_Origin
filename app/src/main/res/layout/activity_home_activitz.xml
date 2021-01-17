@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/ic_pozadina"
+    tools:context=".HomeActivitz">
+
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="295dp"
+        android:layout_height="66dp"
+        android:drawableLeft="@drawable/ic_samobelilogo"
+
+        android:fontFamily="@font/poppins_medium"
+        android:letterSpacing="0"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/white"
+        android:text=" Sve mape"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+
+        app:backgroundTint="#2A5889"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.4"/>
+
+    <Button
+        android:id="@+id/button8"
+        android:layout_width="295dp"
+        android:layout_height="66dp"
+        android:layout_marginBottom="192dp"
+        android:drawableLeft="@drawable/ic_information"
+        android:fontFamily="@font/poppins_medium"
+        android:letterSpacing="0"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/white"
+        android:text=" Informacije"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:backgroundTint="#2A5889"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button7"
+        app:layout_constraintVertical_bias="0.0" />
+
+
+
+    <Button
+        android:id="@+id/button10"
+        android:layout_width="295dp"
+        android:layout_height="66dp"
+        android:drawableLeft="@drawable/ic_settings"
+        android:fontFamily="@font/poppins_medium"
+        android:letterSpacing="0"
+        android:gravity="left|center_vertical"
+        android:textColor="@color/white"
+        android:text=" Podešavanja"
+        android:textAllCaps="false"
+        android:textSize="22sp"
+        app:backgroundTint="#2A5889"
+        app:cornerRadius="15dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/button8"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="166dp"
+        android:layout_marginLeft="166dp"
+        android:layout_marginTop="65dp"
+        android:layout_marginEnd="166dp"
+        android:layout_marginRight="166dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.013"
+        android:src="@drawable/ic_logosvg" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

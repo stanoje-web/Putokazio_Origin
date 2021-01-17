@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.adrenalinstudio.putokazio">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/logo"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/logo"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Putokazio">
+        <activity android:name="com.adrenalinstudio.putokazio.Ukratko5"></activity>
+        <activity android:name="com.adrenalinstudio.putokazio.Ukratko4" />
+        <activity android:name="com.adrenalinstudio.putokazio.AplikacijeZaObjavljivanje" />
+        <activity android:name="com.adrenalinstudio.putokazio.KonfiguracijaAplikacije" />
+        <activity android:name="com.adrenalinstudio.putokazio.PripremaAplikacije" />
+        <activity android:name="com.adrenalinstudio.putokazio.DistribuiranjeAplikacije" />
+        <activity android:name="com.adrenalinstudio.putokazio.Ukratko3" />
+        <activity android:name="com.adrenalinstudio.putokazio.FunkcijaIntent" />
+        <activity android:name="com.adrenalinstudio.putokazio.KakoUbacitiSadrzaj" />
+        <activity android:name="com.adrenalinstudio.putokazio.NapraviAVD" />
+        <activity android:name="com.adrenalinstudio.putokazio.NapraviProjekat" />
+        <activity android:name="com.adrenalinstudio.putokazio.NapraviAplikaciju" />
+        <activity android:name="com.adrenalinstudio.putokazio.Ukratko2" />
+        <activity android:name="com.adrenalinstudio.putokazio.Gradle" />
+        <activity android:name="com.adrenalinstudio.putokazio.Kotlin" />
+        <activity android:name="com.adrenalinstudio.putokazio.Java" />
+        <activity android:name="com.adrenalinstudio.putokazio.CfgAnd" />
+        <activity android:name="com.adrenalinstudio.putokazio.Podesavanja" />
+        <activity android:name="com.adrenalinstudio.putokazio.Androidstd" />
+        <activity android:name="com.adrenalinstudio.putokazio.Ukratko" />
+        <activity android:name="com.adrenalinstudio.putokazio.OperativniSistemAnd" />
+        <activity android:name="com.adrenalinstudio.putokazio.IstorijaAnd" />
+        <activity android:name=".istorija1" />
+        <activity android:name=".istorijaandroida3" />
+        <activity android:name=".istorijaAndroida" />
+        <activity android:name="com.adrenalinstudio.putokazio.androidale" />
+        <activity android:name=".IstorijaAndroida" />
+        <activity android:name="com.adrenalinstudio.putokazio.UvodUAndroid" />
+        <activity android:name=".Android" />
+        <activity android:name="com.adrenalinstudio.putokazio.SveMape2" />
+        <activity android:name="com.adrenalinstudio.putokazio.KakoRadiInternet" />
+        <activity android:name="com.adrenalinstudio.putokazio.Internet2" />
+        <activity android:name="com.adrenalinstudio.putokazio.FrontendDevelop" />
+        <activity android:name=".frontenddeveloping" />
+        <activity android:name="com.adrenalinstudio.putokazio.NovaMapa" />
+        <activity android:name="com.adrenalinstudio.putokazio.Sacuvane_mape" />
+        <activity android:name="com.adrenalinstudio.putokazio.SveMape" />
+        <activity android:name="com.adrenalinstudio.putokazio.HomeActivitz" />
+        <activity
+            android:name=".Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Putokazio.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/Theme.Putokazio.NoActionBar" />
+        <activity
+            android:name=".MainActivity2"
+            android:label="@string/title_activity_main2"
+            android:theme="@style/Theme.Putokazio.NoActionBar" />
+        <activity android:name="com.adrenalinstudio.putokazio.MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="preloaded_fonts"
+            android:resource="@array/preloaded_fonts" />
+    </application>
+
+</manifest>
