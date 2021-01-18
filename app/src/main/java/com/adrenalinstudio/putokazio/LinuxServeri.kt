@@ -4,6 +4,7 @@ import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
+import android.widget.ImageButton
 
 class LinuxServeri : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -13,6 +14,7 @@ class LinuxServeri : AppCompatActivity() {
         val interfejs=findViewById<Button>(R.id.button21)
         val grafickiprogrami=findViewById<Button>(R.id.button22)
         val kernel=findViewById<Button>(R.id.button6)
+        val back=findViewById<ImageButton>(R.id.imageButton1)
         olinuxu.setOnClickListener {
             val intent= Intent(this,Olinuxu::class.java)
             startActivity(intent)
@@ -27,6 +29,10 @@ class LinuxServeri : AppCompatActivity() {
         }
         kernel.setOnClickListener {
             val intent= Intent(this,LinuxovKernel::class.java)
+            startActivity(intent)
+        }
+        back.setOnClickListener {
+            val intent=Intent(this,SveMape::class.java)
             startActivity(intent)
         }
 
