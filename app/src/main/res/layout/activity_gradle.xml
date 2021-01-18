@@ -17,90 +17,98 @@
             android:id="@+id/imageButton7"
             android:layout_width="28dp"
             android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/back"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.041"
+            android:background="@drawable/ic_back"
+            android:src="@drawable/ic_back"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/back" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_bold"
             android:text="Gradle"
             android:textColor="#2A5889"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.01999998" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView15"
-            android:layout_width="347dp"
-            android:layout_height="190dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Gradle je alat za automatizaciju izrade  za razvoj višejezičkog softvera.Kontroliše razvojni proces u zadacima kompajlirana i pakovanja do testiranja,primene i objavljivanja.Podržani jezici uključuju Javu,Kotlin,C,C++,JS"
             android:textColor="#2A5889"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.206" />
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
         <TextView
             android:id="@+id/textView17"
-            android:layout_width="342dp"
-            android:layout_height="155dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Gradle je prvi put pušten 2007. godine a dizajniran je za izgradnju više projekata koje mogu postati veliki.Funkcioniše na osnovu niza zadataka izrade koji se mogu izvoditi serijski ali i paralelno.A evo i primera jednog build.gradle Fila"
             android:textColor="#2A5889"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.463"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.463" />
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
         <TextView
             android:id="@+id/textView25"
-            android:layout_width="342dp"
-            android:layout_height="155dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/montserrat_bold"
             android:text="apply plugin: 'java'"
             android:textColor="#0C0C0C"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.463"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.743" />
+            app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="668dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
             android:text="Završeno"
             android:textColor="#2A5889"
             android:textSize="23dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.845"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
 
         <ToggleButton
             android:id="@+id/toggleButtonDrawable1"
             android:layout_width="23dp"
             android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:height="38dp"
             android:background="@drawable/checkded"
             android:checked="true"
@@ -108,21 +116,16 @@
             android:textOn=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.963"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView13"
             app:layout_constraintVertical_bias="0.992" />
 
         <ImageView
             android:id="@+id/imageView13"
             android:layout_width="305dp"
             android:layout_height="126dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.367"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.78"
+            app:layout_constraintTop_toBottomOf="@+id/textView25"
             app:srcCompat="@drawable/gradle" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
