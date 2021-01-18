@@ -51,8 +51,9 @@
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
     <string name="title_activity_home">HomeActivity</string>
     <string name="todo">TODO</string>
-    <string name="podesavanje">U vreme pisanja ove lekcije,Android Studio 4 je bio aktuelan.Da bismo preuzeli Android Studio 4 možemo otići na sledeći link
-    <a href="https://developer.android.com/studio/">https://developer.android.com/studio/</a>
+    <string name="podesavanje">U vreme pisanja ove lekcije, Android Studio 4 je bio aktuelan. Da bismo preuzeli Android Studio 4 možemo otići na sledeći link
+    <a href="https://developer.android.com/studio/">Android Studio</a>
+
     </string>
 
 
