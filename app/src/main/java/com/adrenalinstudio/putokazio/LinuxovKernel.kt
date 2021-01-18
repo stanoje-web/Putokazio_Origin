@@ -1,6 +1,7 @@
 package com.adrenalinstudio.putokazio
 
 import android.content.Intent
+import android.graphics.Color
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
@@ -20,9 +21,9 @@ class LinuxovKernel : AppCompatActivity() {
         val konfiguracijskiMenibrt=findViewById<Button>(R.id.button22)
         val uredjajizaskladistenjebrt=findViewById<Button>(R.id.button9)
         val back=findViewById<ImageButton>(R.id.imageButton1)
-        val najnovijiKernelbt=intent.getBooleanExtra("tvoraclinuxabt",false)
-        val prilagodjavanjekernelabt=intent.getBooleanExtra("istorijalinuxabt",false)
-        val konfiguracijskiMenibt=intent.getBooleanExtra("linuxdanasbt",false)
+        val najnovijiKernelbt=intent.getBooleanExtra("najnovijikernelbt",false)
+        val prilagodjavanjekernelabt=intent.getBooleanExtra("prilagođavanjekernelabt",false)
+        val konfiguracijskiMenibt=intent.getBooleanExtra("konfiguracijskimenibt",false)
         val uredjajizaskladistenjebt=intent.getBooleanExtra("linuxdanasbt",false)
         najnovijiKernel.setOnClickListener {
             val intent= Intent(this,NajnovijiKernel::class.java)
@@ -39,6 +40,30 @@ class LinuxovKernel : AppCompatActivity() {
         uredjajizaskladistenjebrt.setOnClickListener {
             val intent= Intent(this,UredjajizaSkladistenje::class.java)
             startActivity(intent)
+        }
+        if(savedBoolean==true) {
+            najnovijiKernel.setBackgroundColor(Color.rgb(89, 171, 43))
+        }
+        else{
+
+        }
+        if(savedBoolean2==true) {
+            prilagodjavanjekernela.setBackgroundColor(Color.rgb(89, 171, 43))
+        }
+        else{
+
+        }
+        if(savedBoolean3==true) {
+            konfiguracijskiMenibrt.setBackgroundColor(Color.rgb(89, 171, 43))
+        }
+        else{
+
+        }
+        if(savedBoolean4==true) {
+            uredjajizaskladistenjebrt.setBackgroundColor(Color.rgb(89, 171, 43))
+        }
+        else{
+
         }
         back.setOnClickListener {
             val intent= Intent(this,LinuxServeri::class.java)
