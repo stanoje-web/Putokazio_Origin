@@ -68,6 +68,7 @@
             android:fontFamily="@font/open_sans"
             android:text="Svaki računar konektovan na internet, čak i vaš računar kući, je deo mreže. Vi se povezujete na mrežu vašeg provajdera (ISP- internet service provider) dok je vaš provajder povezan na neku veću mrežu, u suštini to je internet, mnogo mreža povezanih zajedno."
             android:textColor="#2A5889"
+
             android:textSize="18sp"
 
             app:layout_constraintEnd_toEndOf="parent"
