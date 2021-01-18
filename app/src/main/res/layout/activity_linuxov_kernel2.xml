@@ -63,7 +63,7 @@
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
-        android:textSize="15dp"
+        android:textSize="19sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
         app:layout_constraintBottom_toBottomOf="parent"

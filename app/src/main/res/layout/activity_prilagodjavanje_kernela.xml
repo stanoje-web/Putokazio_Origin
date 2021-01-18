@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="1dp"
+        android:scrollbars="none"
+        tools:context=".NovaMapa">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/back"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.041"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/back" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Prilagođavanje kernela"
+            android:textColor="#2A5889"
+            android:textSize="24sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.373"
+            app:layout_constraintStart_toEndOf="@+id/imageButton7"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.015" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="328dp"
+            android:layout_height="477dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Podešavanje kernela je dugačak proces. U ovom odeljku, pogledaćemo osnovne korake. Kasnije u poglavlju, proći ćete detaljnije kroz grafički konfiguracijski meni. Slede osnovni koraci:Treba već da imate daunlodovan izvorni kod za karnel, iz kernel-source RPM-a ili iz nekog generičkog fajla kernela.Kerneli varijaju.Koraci koje morate da napravite mogu da varijaju.Prvo stvar što treba ta uradite jeste da pročitate README fajl u /usr/src/Linux2.4 direktorijumu zbog bilo koji velikih promena u proceduri.Ako koristite RPM izvornog koda Red Hat-ovog kernela /usr/src/Linux2.4 direktorijum se automatski povezuje sa aktuelnim direktorijumom sa izvornim kodom."
+            android:textColor="#2A5889"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.542"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.414" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="700dp"
+            android:text="Završeno"
+            android:textColor="#2A5889"
+            android:textSize="23dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.829"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonDrawable1"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:height="38dp"
+            android:background="@drawable/checkded"
+            android:checked="true"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.953"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.993" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
