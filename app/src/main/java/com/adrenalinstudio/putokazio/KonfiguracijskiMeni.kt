@@ -6,22 +6,22 @@ import android.os.Bundle
 import android.widget.ImageButton
 import android.widget.ToggleButton
 
-class NajnovijiKernel : AppCompatActivity() {
+class KonfiguracijskiMeni : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_najnoviji_kernel)
+        setContentView(R.layout.activity_konfiguracijski_meni)
         val boolean2 =findViewById<ToggleButton>(R.id.toggleButtonDrawable1)
         val sharedPreferences2=getSharedPreferences("sharedPref", MODE_PRIVATE)
-        val savedBoolean2=sharedPreferences2.getBoolean("najnovijikernel", false)
+        val savedBoolean2=sharedPreferences2.getBoolean("konfiguracijskimeni", false)
         val back=findViewById<ImageButton>(R.id.imageButton7)
         boolean2.isChecked=savedBoolean2
         boolean2.setOnCheckedChangeListener { _, isChecked ->
             val edit=sharedPreferences2.edit()
             edit.apply{
-                putBoolean("najnovijikernel", !savedBoolean2)
+                putBoolean("konfiguracijskimeni", !savedBoolean2)
             }.apply()
             val intent = Intent(this,LinuxovKernel::class.java)
-            intent.putExtra("najnovijikernelbt",true)
+            intent.putExtra("konfiguracijskimenibt",true)
             startActivity(intent)
         }
         back.setOnClickListener {
