@@ -31,7 +31,7 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dp"
             android:fontFamily="@font/poppins_bold"
-            android:text="GIMP"
+            android:text="Color Chooser"
             android:textColor="#2A5889"
             android:textSize="25dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -46,7 +46,7 @@
             android:layout_width="330dp"
             android:layout_height="365dp"
             android:fontFamily="@font/open_sans"
-            android:text="GIMP je deo GNOME kancelarijkog kompleta(GNU Image Manipulation Program)i on predstavlja alternativu za Adobeov Photoshop i Jascov Pain Shop Pro.Da biste pokrenuli ovaj program selektujete Main Menu->Graphics->GIMP ili pokrenite gimp komandu."
+            android:text="KColorChooser,takođe poznat kao KColorEdit,omogućava vam da editujete palete sa bojama. Da biste pokrenuli ovaj program, selektujete Main Menu->Graphics->More Graphics->Application->Color Chooser ili pokrenite kcolorchooser komandu. U ovm pomoćnom programu, možete da merite relativne nivoe RGB-a(red,green i blue);svaka boja ima različit nivo crvene, zelene i plave,između 0 i 255."
             android:textColor="#2A5889"
             android:textSize="18dp"
             app:layout_constraintBottom_toBottomOf="parent"
@@ -54,7 +54,7 @@
             app:layout_constraintHorizontal_bias="0.555"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.262" />
+            app:layout_constraintVertical_bias="0.285" />
 
         <TextView
             android:id="@+id/textView23"
@@ -84,18 +84,6 @@
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:layout_constraintVertical_bias="0.993" />
-
-        <ImageView
-            android:id="@+id/imageView18"
-            android:layout_width="354dp"
-            android:layout_height="235dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.666"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.624"
-            app:srcCompat="@drawable/gimp" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
