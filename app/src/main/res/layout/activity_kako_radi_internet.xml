@@ -8,11 +8,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-<<<<<<< HEAD
-=======
-
->>>>>>> d5ce9d90e6cc2e77a50ca9ee0a0c13be79ec0e31
-
         android:padding="5dp"
         android:scrollbars="none"
         tools:context=".NovaMapa">
