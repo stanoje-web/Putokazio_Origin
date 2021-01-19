@@ -10,7 +10,6 @@ import kotlinx.android.synthetic.main.activity_main.*
 import kotlinx.android.synthetic.main.activity_sve_mape2.*
 
 class SveMape : AppCompatActivity() {
-    private var backPressedTime=0L
     private var progr = 0
     private var progr1 = 0
     private var progr2 = 0
@@ -18,9 +17,6 @@ class SveMape : AppCompatActivity() {
     private var progr4 = 0
     private var progr5 = 0
     private var progr6 = 0
-
-
-
     override fun onCreate(savedInstanceState: Bundle?) {
         window.setBackgroundDrawableResource(R.drawable.ic_pozadina)
         super.onCreate(savedInstanceState)
@@ -550,8 +546,9 @@ class SveMape : AppCompatActivity() {
     }
     override fun onBackPressed() {
        val intent=Intent(this,HomeActivitz::class.java)
+        startActivity(intent)
     }
-    }
+}
     
 
 
