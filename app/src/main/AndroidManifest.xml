@@ -9,66 +9,183 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Putokazio">
-
-        <activity android:screenOrientation="portrait" android:name=".KonfiguracijskiMeni"></activity>
-        <activity android:screenOrientation="portrait" android:name=".UredjajizaSkladistenje" />
-        <activity android:screenOrientation="portrait" android:name=".PrilagodjavanjeKernela" />
-        <activity android:screenOrientation="portrait" android:name=".NajnovijiKernel" />
-        <activity android:screenOrientation="portrait" android:name=".ColorChooser" />
-        <activity android:screenOrientation="portrait" android:name=".GIMP" />
-        <activity android:screenOrientation="portrait" android:name=".PrikazivaciSlika" />
-        <activity android:screenOrientation="portrait" android:name=".PDFViewer" />
-        <activity android:screenOrientation="portrait" android:name=".LinuxovKernel" />
-        <activity android:screenOrientation="portrait" android:name=".GrafickiProgrami" />
-        <activity android:screenOrientation="portrait" android:name=".ViEditor" />
-        <activity android:screenOrientation="portrait" android:name=".UpravljanjeFajlovima" />
-        <activity android:screenOrientation="portrait" android:name=".KreiranjeFajlova" />
-        <activity android:screenOrientation="portrait" android:name=".NavigacioneKomande" />
-        <activity android:screenOrientation="portrait" android:name=".InterfejsKomandneLinije" />
-        <activity android:screenOrientation="portrait" android:name=".LinuxDanas" />
-        <activity android:screenOrientation="portrait" android:name=".IstorijaLinuxa" />
-        <activity android:screenOrientation="portrait" android:name=".TvoracLinuxa" />
-        <activity android:screenOrientation="portrait" android:name=".LinuxServeri" />
-        <activity android:screenOrientation="portrait" android:name=".Olinuxu" />
-        <activity android:screenOrientation="portrait" android:name=".Ukratko5" />
-        <activity android:screenOrientation="portrait" android:name=".Ukratko4" />
-        <activity android:screenOrientation="portrait" android:name=".AplikacijeZaObjavljivanje" />
-        <activity android:screenOrientation="portrait" android:name=".KonfiguracijaAplikacije" />
-        <activity android:screenOrientation="portrait" android:name=".PripremaAplikacije" />
-        <activity android:screenOrientation="portrait" android:name=".DistribuiranjeAplikacije" />
-        <activity android:screenOrientation="portrait" android:name=".Ukratko3" />
-        <activity android:screenOrientation="portrait" android:name=".FunkcijaIntent" />
-        <activity android:screenOrientation="portrait" android:name=".KakoUbacitiSadrzaj" />
-        <activity android:screenOrientation="portrait" android:name=".NapraviAVD" />
-        <activity android:screenOrientation="portrait" android:name=".NapraviProjekat" />
-        <activity android:screenOrientation="portrait" android:name=".NapraviAplikaciju" />
-        <activity android:screenOrientation="portrait" android:name=".Ukratko2" />
-        <activity android:screenOrientation="portrait" android:name=".Gradle" />
-        <activity android:screenOrientation="portrait" android:name=".Kotlin" />
-        <activity android:screenOrientation="portrait" android:name=".Java" />
-        <activity android:screenOrientation="portrait" android:name=".CfgAnd" />
-        <activity android:screenOrientation="portrait" android:name=".Podesavanja" />
-        <activity android:screenOrientation="portrait" android:name=".Androidstd" />
-        <activity android:screenOrientation="portrait" android:name=".Ukratko" />
-        <activity android:screenOrientation="portrait" android:name=".OperativniSistemAnd" />
-        <activity android:screenOrientation="portrait" android:name=".IstorijaAnd" />
-        <activity android:screenOrientation="portrait" android:name=".istorija1" />
-        <activity android:screenOrientation="portrait" android:name=".istorijaandroida3" />
-        <activity android:screenOrientation="portrait" android:name=".istorijaAndroida" />
-        <activity android:screenOrientation="portrait" android:name=".androidale" />
-        <activity android:screenOrientation="portrait" android:name=".IstorijaAndroida" />
-        <activity android:screenOrientation="portrait" android:name=".UvodUAndroid" />
-        <activity android:screenOrientation="portrait" android:name=".Android" />
-        <activity android:screenOrientation="portrait" android:name=".SveMape2" />
-        <activity android:screenOrientation="portrait" android:name=".KakoRadiInternet" />
-        <activity android:screenOrientation="portrait" android:name=".Internet2" />
-        <activity android:screenOrientation="portrait" android:name=".FrontendDevelop" />
-        <activity android:screenOrientation="portrait" android:name=".frontenddeveloping" />
-        <activity android:screenOrientation="portrait" android:name=".NovaMapa" />
-        <activity android:screenOrientation="portrait" android:name=".Sacuvane_mape" />
-        <activity android:screenOrientation="portrait" android:name=".SveMape" />
-        <activity android:screenOrientation="portrait" android:name=".HomeActivitz" />
-        <activity android:name=".JavaScriptSintaksa"></activity>
+        <activity android:name=".Browser"></activity>
+        <activity android:name=".HTTP" />
+        <activity
+            android:name=".KonfiguracijskiMeni"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UredjajizaSkladistenje"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrilagodjavanjeKernela"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NajnovijiKernel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ColorChooser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GIMP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrikazivaciSlika"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PDFViewer"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LinuxovKernel"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GrafickiProgrami"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViEditor"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpravljanjeFajlovima"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KreiranjeFajlova"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NavigacioneKomande"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InterfejsKomandneLinije"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LinuxDanas"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IstorijaLinuxa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TvoracLinuxa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LinuxServeri"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Olinuxu"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko5"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko4"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AplikacijeZaObjavljivanje"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KonfiguracijaAplikacije"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PripremaAplikacije"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DistribuiranjeAplikacije"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FunkcijaIntent"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KakoUbacitiSadrzaj"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NapraviAVD"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NapraviProjekat"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NapraviAplikaciju"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gradle"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kotlin"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Java"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CfgAnd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Podesavanja"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Androidstd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OperativniSistemAnd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IstorijaAnd"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".istorija1"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".istorijaandroida3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".istorijaAndroida"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".androidale"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IstorijaAndroida"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UvodUAndroid"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Android"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SveMape2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KakoRadiInternet"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Internet2"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FrontendDevelop"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".frontenddeveloping"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NovaMapa"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sacuvane_mape"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SveMape"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivitz"
+            android:screenOrientation="portrait" />
+        <activity android:name=".JavaScriptSintaksa" />
         <activity android:name=".JavaScript" />
         <activity
             android:name=".Home"
@@ -89,7 +206,6 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
 
         <meta-data
             android:name="preloaded_fonts"
