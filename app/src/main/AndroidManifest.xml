@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Putokazio">
-<<<<<<< Updated upstream
+
         <activity android:screenOrientation="portrait" android:name=".KonfiguracijskiMeni"></activity>
         <activity android:screenOrientation="portrait" android:name=".UredjajizaSkladistenje" />
         <activity android:screenOrientation="portrait" android:name=".PrilagodjavanjeKernela" />
@@ -68,66 +68,8 @@
         <activity android:screenOrientation="portrait" android:name=".Sacuvane_mape" />
         <activity android:screenOrientation="portrait" android:name=".SveMape" />
         <activity android:screenOrientation="portrait" android:name=".HomeActivitz" />
-=======
         <activity android:name=".JavaScriptSintaksa"></activity>
         <activity android:name=".JavaScript" />
-        <activity android:name=".PrilagodjavanjeKernela" />
-        <activity android:name=".NajnovijiKernel" />
-        <activity android:name=".ColorChooser" />
-        <activity android:name=".GIMP" />
-        <activity android:name=".PrikazivaciSlika" />
-        <activity android:name=".PDFViewer" />
-        <activity android:name=".LinuxovKernel" />
-        <activity android:name=".GrafickiProgrami" />
-        <activity android:name=".ViEditor" />
-        <activity android:name=".UpravljanjeFajlovima" />
-        <activity android:name=".KreiranjeFajlova" />
-        <activity android:name=".NavigacioneKomande" />
-        <activity android:name=".InterfejsKomandneLinije" />
-        <activity android:name=".LinuxDanas" />
-        <activity android:name=".IstorijaLinuxa" />
-        <activity android:name=".TvoracLinuxa" />
-        <activity android:name=".LinuxServeri" />
-        <activity android:name=".Olinuxu" />
-        <activity android:name=".Ukratko5" />
-        <activity android:name=".Ukratko4" />
-        <activity android:name=".AplikacijeZaObjavljivanje" />
-        <activity android:name=".KonfiguracijaAplikacije" />
-        <activity android:name=".PripremaAplikacije" />
-        <activity android:name=".DistribuiranjeAplikacije" />
-        <activity android:name=".Ukratko3" />
-        <activity android:name=".FunkcijaIntent" />
-        <activity android:name=".KakoUbacitiSadrzaj" />
-        <activity android:name=".NapraviAVD" />
-        <activity android:name=".NapraviProjekat" />
-        <activity android:name=".NapraviAplikaciju" />
-        <activity android:name=".Ukratko2" />
-        <activity android:name=".Gradle" />
-        <activity android:name=".Kotlin" />
-        <activity android:name=".Java" />
-        <activity android:name=".CfgAnd" />
-        <activity android:name=".Podesavanja" />
-        <activity android:name=".Androidstd" />
-        <activity android:name=".Ukratko" />
-        <activity android:name=".OperativniSistemAnd" />
-        <activity android:name=".IstorijaAnd" />
-        <activity android:name=".istorija1" />
-        <activity android:name=".istorijaandroida3" />
-        <activity android:name=".istorijaAndroida" />
-        <activity android:name=".androidale" />
-        <activity android:name=".IstorijaAndroida" />
-        <activity android:name=".UvodUAndroid" />
-        <activity android:name=".Android" />
-        <activity android:name=".SveMape2" />
-        <activity android:name=".KakoRadiInternet" />
-        <activity android:name=".Internet2" />
-        <activity android:name=".FrontendDevelop" />
-        <activity android:name=".frontenddeveloping" />
-        <activity android:name=".NovaMapa" />
-        <activity android:name=".Sacuvane_mape" />
-        <activity android:name=".SveMape" />
-        <activity android:name=".HomeActivitz" />
->>>>>>> Stashed changes
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
