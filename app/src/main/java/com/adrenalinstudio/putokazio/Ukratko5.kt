@@ -31,7 +31,7 @@ class Ukratko5 : AppCompatActivity() {
         }
     }
     override fun onBackPressed() {
-        val intent=Intent(this, SveMape::class.java)
+        val intent=Intent(this, androidale::class.java)
         startActivity(intent)
     }
 }
