@@ -25,7 +25,7 @@ class IstorijaAnd : AppCompatActivity() {
             startActivity(intent)
         }
         back.setOnClickListener {
-            val intent= Intent(this,UvodUAndroid::class.java)
+            val intent= Intent(this,androidale::class.java)
             startActivity(intent)
 
         }

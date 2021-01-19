@@ -71,4 +71,8 @@ class InterfejsKomandneLinije : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,LinuxServeri::class.java)
+        startActivity(intent)
+    }
 }

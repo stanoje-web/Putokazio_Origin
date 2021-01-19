@@ -183,4 +183,8 @@ class LinuxServeri : AppCompatActivity() {
 
 
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,SveMape::class.java)
+        startActivity(intent)
+    }
 }
