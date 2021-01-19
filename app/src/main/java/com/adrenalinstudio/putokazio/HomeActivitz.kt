@@ -5,6 +5,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.Toast
+import kotlin.system.exitProcess
 
 class HomeActivitz : AppCompatActivity() {
     private var backPressedTime=0L
@@ -29,12 +30,10 @@ class HomeActivitz : AppCompatActivity() {
     }
     override fun onBackPressed() {
         if (backPressedTime + 2000 > System.currentTimeMillis()) {
-            super.onBackPressed()
+           super.onBackPressed()
         } else {
             Toast.makeText(applicationContext, "Pritisnite 'back' opet da biste izašli iz aplikacije", Toast.LENGTH_SHORT).show()
         }
-        backPressedTime = System.currentTimeMillis()
-
-
-    }
+        backPressedTime=System.currentTimeMillis()
+}
 }
