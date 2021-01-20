@@ -30,8 +30,8 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="17dp"
-            android:fontFamily="@font/montserrat_bold"
-            android:text="Konfiguracija aplikacije"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Konfiguracija"
             android:textColor="#2A5889"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
@@ -50,7 +50,7 @@
             android:fontFamily="@font/open_sans"
             android:text="1.Proveri naziv paketa-Aplikacija je možda pokrenuta kao kod za vežbanje ili bacanje,a zatim je rastao i odneo život za sebe.Treba proveriti i naziv paketa aplikacije.Proverite da to nije idalje .com.example.mya.pp.Naziv paketa mora biti jedinstven"
             android:textColor="#2A5889"
-            android:textSize="18dp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
@@ -66,7 +66,7 @@
             android:fontFamily="@font/open_sans"
             android:text="2.Proverite dozvole aplikacije-negte ste možda tokom eksperimentisanja postavili dozvole za manifest poput dozvole za korišćenje mreže,pisanje u spoljnu memoriju i drugo"
             android:textColor="#2A5889"
-            android:textSize="18dp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView15" />
@@ -82,7 +82,7 @@
             android:fontFamily="@font/open_sans"
             android:text="3.Proverite udaljene servere i URL adrese-ako se vaša aplikacija oslanja na neki web API ili usluge u cloudu uverite se da  izdata verzija aplikacije kortisti proizvodne URL-ove a ne test putanje"
             android:textColor="#2A5889"
-            android:textSize="18dp"
+            android:textSize="18sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView16" />
@@ -96,7 +96,7 @@
             android:layout_marginBottom="17dp"
             android:text="Završeno"
             android:textColor="#2A5889"
-            android:textSize="23dp"
+            android:textSize="23sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
 
