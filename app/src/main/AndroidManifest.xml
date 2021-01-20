@@ -9,235 +9,238 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Putokazio">
-        <activity android:name=".Browser"></activity>
+        <activity android:name=".Hosting"></activity>
+        <activity android:name=".Domen" />
+        <activity android:name=".dns" />
+        <activity android:name=".Browser" />
         <activity android:name=".HTTP" />
         <activity
-            android:noHistory="true"
             android:name=".KonfiguracijskiMeni"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".UredjajizaSkladistenje"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".PrilagodjavanjeKernela"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".NajnovijiKernel"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".ColorChooser"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".GIMP"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".PrikazivaciSlika"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".PDFViewer"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".LinuxovKernel"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".GrafickiProgrami"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".ViEditor"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".UpravljanjeFajlovima"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".KreiranjeFajlova"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".NavigacioneKomande"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".InterfejsKomandneLinije"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".LinuxDanas"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".IstorijaLinuxa"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".TvoracLinuxa"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".LinuxServeri"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Olinuxu"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Ukratko5"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Ukratko4"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".AplikacijeZaObjavljivanje"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".KonfiguracijaAplikacije"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".PripremaAplikacije"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".DistribuiranjeAplikacije"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Ukratko3"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".FunkcijaIntent"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".KakoUbacitiSadrzaj"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".NapraviAVD"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".NapraviProjekat"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".NapraviAplikaciju"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Ukratko2"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Gradle"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Kotlin"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Java"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".CfgAnd"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Podesavanja"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Androidstd"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Ukratko"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".OperativniSistemAnd"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".IstorijaAnd"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".istorija1"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".istorijaandroida3"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".istorijaAndroida"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".androidale"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".IstorijaAndroida"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".UvodUAndroid"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Android"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".SveMape2"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".KakoRadiInternet"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Internet2"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".FrontendDevelop"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".frontenddeveloping"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".NovaMapa"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".Sacuvane_mape"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
-            android:noHistory="true"
             android:name=".SveMape"
+            android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity
             android:name=".HomeActivitz"
