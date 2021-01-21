@@ -41,6 +41,7 @@ class SveMape : AppCompatActivity() {
         val frontendbut = findViewById<Button>(R.id.button)
         val androidbut = findViewById<Button>(R.id.button1)
         val linuxbt = findViewById<Button>(R.id.button3)
+        val coronabt = findViewById<Button>(R.id.button24)
 
         frontendbut.setOnClickListener {
             val intent = Intent(this, FrontendDevelop::class.java)
@@ -52,6 +53,10 @@ class SveMape : AppCompatActivity() {
         }
         linuxbt.setOnClickListener {
             val intent = Intent(this, LinuxServeri::class.java)
+            startActivity(intent)
+        }
+        coronabt.setOnClickListener {
+            val intent = Intent(this, Covid19::class.java)
             startActivity(intent)
         }
 
