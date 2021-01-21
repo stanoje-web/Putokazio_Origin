@@ -8,7 +8,7 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-
+        android:background="#8F2020"
         android:padding="5dp"
         android:scrollbars="none"
         tools:context=".NovaMapa">
@@ -20,8 +20,8 @@
             android:layout_marginStart="20dp"
             android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/ic_back"
-            android:src="@drawable/ic_back"
+            android:background="@drawable/ic_backbeli"
+            android:src="@drawable/ic_backbeli"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
@@ -32,7 +32,7 @@
             android:layout_marginTop="17dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Kako se zaštititi?"
-            android:textColor="#2A5889"
+            android:textColor="#fff"
             android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -49,7 +49,7 @@
             android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Bolest koja nastaje usled infekcije koronavirusom 2019 (COVID-19)  izaziva novi koronavirus, što znači da ovaj virus nije nikada pre pronađen. Međutim, znamo da se virus uglavnom prenosi (a) direktnim kontaktom, kapljično sa osobe koja je inficirana virusom;  i (b) indirektno, dodirom preko kontaminiranih površina na kojima virusi mogu kratko vreme da prežive. "
-            android:textColor="#2A5889"
+            android:textColor="#fff"
             android:textSize="18dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -65,7 +65,7 @@
             android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Često perite ruke sapunom i vodom ili sredstvima za suvo pranje ruku na bazi alkohola. \n 1. Nakon brisanja nosa, kašljanja ili kijanja.\n 2. Pre i nakon nege bolesnog lica. \n 3. Pre, za vreme i nakon pripreme hrane. \n 4. Pre jela.\n 5. Pre i nakon tretiranja posekotine ili rane. \n 6. Nakon upotrebe toaleta.\n 7. Nakon zamene pelena ili umivanja deteta koje je koristilo toalet. \n 8. Nakon dodirivanja životinje, životinjske hrane ili životinjskog otpada. \n 9. Nakon rukovanja hranom za ljubimce ili granulama. \n 10. Nakon dodirivanja smeća."
-            android:textColor="#2A5889"
+            android:textColor="#fff"
             android:textSize="18dp"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
@@ -79,7 +79,7 @@
             android:layout_marginRight="15dp"
             android:layout_marginBottom="17dp"
             android:text="Završeno"
-            android:textColor="#2A5889"
+            android:textColor="#fff"
             android:textSize="23dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
@@ -93,7 +93,7 @@
             android:layout_marginRight="20dp"
             android:layout_marginBottom="20dp"
             android:height="38dp"
-            android:background="@drawable/checkded"
+            android:background="@drawable/checkedbeli"
             android:checked="true"
             android:textOff=""
             android:textOn=""
