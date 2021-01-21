@@ -94,19 +94,19 @@ class LinuxServeri : AppCompatActivity() {
             startActivity(intent)
         }
         if (savedBoolean4 == true) {
-            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
+            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
         if (savedBoolean5 == true) {
-            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
+            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
         if (savedBoolean6 == true) {
-            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
+            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
         if (savedBoolean7 == true) {
-            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
+            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
         if (savedBoolean4 == true) {
@@ -114,7 +114,7 @@ class LinuxServeri : AppCompatActivity() {
                 if (savedBoolean6 == true) {
                     if (savedBoolean7 == true) {
 
-                            interfejs.setBackgroundColor(Color.rgb(89, 171, 43))
+                        grafickiprogrami.setBackgroundColor(Color.rgb(89, 171, 43))
                             }
                         }
                     }
@@ -124,19 +124,19 @@ class LinuxServeri : AppCompatActivity() {
         else {
         }
         if (savedBoolean8 == true) {
-            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
+            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
         if (savedBoolean9 == true) {
-            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
+            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
         if (savedBoolean10 == true) {
-            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
+            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
         if (savedBoolean11 == true) {
-            grafickiprogrami.setBackgroundColor(Color.rgb(42, 88, 137))
+            interfejs.setBackgroundColor(Color.rgb(42, 88, 137))
         } else {
         }
 
@@ -144,7 +144,7 @@ class LinuxServeri : AppCompatActivity() {
             if (savedBoolean9 == true) {
                 if (savedBoolean10 == true) {
                     if (savedBoolean11 == true) {
-                        grafickiprogrami.setBackgroundColor(Color.rgb(89, 171, 43))
+                        interfejs.setBackgroundColor(Color.rgb(89, 171, 43))
                         }
                     }
                 }

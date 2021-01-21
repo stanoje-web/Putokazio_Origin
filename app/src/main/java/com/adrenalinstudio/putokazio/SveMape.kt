@@ -267,31 +267,42 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean25 = sharedPreferences.getBoolean("tvoraclinuxa", false)
-        val buttonkri19 = intent.getBooleanExtra("tvoraclinuxabt", false)
+        val savedBoolean25 = sharedPreferences.getBoolean("appzaobj", false)
+        val buttonkri19 = intent.getBooleanExtra("appzaobjbt", false)
         if (savedBoolean25 == true) {
-            progressBar4.progress = progr3 + 8
-            progr3 = progr3 + 8
-            textView67.text = "$progr3%"
+            progressBar5.progress = progr4 + 5
+            progr4 = progr4 + 5
+            textView66.text = "$progr4%"
 
         } else {
 
 
         }
-        val savedBoolean26 = sharedPreferences.getBoolean("istorijalinuxa", false)
-        val buttonkri20 = intent.getBooleanExtra("istorijalinuxabt", false)
+        val savedBoolean26 = sharedPreferences.getBoolean("ukratko4", false)
+        val buttonkri20 = intent.getBooleanExtra("ukratko4bt", false)
         if (savedBoolean26 == true) {
-            progressBar4.progress = progr3 + 8
-            progr3 = progr3 + 8
-            textView67.text = "$progr3%"
+            progressBar5.progress = progr4 + 5
+            progr4 = progr4 + 5
+            textView66.text = "$progr4%"
+
         } else {
 
 
         }
-
-        val savedBoolean27 = sharedPreferences.getBoolean("linuxdanas", false)
-        val buttonkri21 = intent.getBooleanExtra("linuxdanasbt", false)
+        val savedBoolean27 = sharedPreferences.getBoolean("ukratko5", false)
+        val buttonkri21 = intent.getBooleanExtra("ukratko5bt", false)
         if (savedBoolean27 == true) {
+            progressBar5.progress = progr4 + 10
+            progr4 = progr4 + 10
+            textView66.text = "$progr4%"
+
+        } else {
+
+
+        }
+        val savedBoolean28 = sharedPreferences.getBoolean("tvoraclinuxa", false)
+        val buttonkri22 = intent.getBooleanExtra("tvoraclinuxabt", false)
+        if (savedBoolean28 == true) {
             progressBar4.progress = progr3 + 8
             progr3 = progr3 + 8
             textView67.text = "$progr3%"
@@ -300,42 +311,30 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean28 = sharedPreferences.getBoolean("pdf", false)
-        val buttonkri22 = intent.getBooleanExtra("pdfbt", false)
-        if (savedBoolean28 == true) {
-            progressBar4.progress = progr3 + 7
-            progr3 = progr3 + 7
-            textView67.text = "$progr3%"
-
-        } else {
-
-
-        }
-        val savedBoolean29 = sharedPreferences.getBoolean("prikazivacislika", false)
-        val buttonkri23 = intent.getBooleanExtra("prikazivacislikabt", false)
+        val savedBoolean29 = sharedPreferences.getBoolean("istorijalinuxa", false)
+        val buttonkri23= intent.getBooleanExtra("istorijalinuxabt", false)
         if (savedBoolean29 == true) {
-            progressBar4.progress = progr3 + 7
-            progr3 = progr3 + 7
+            progressBar4.progress = progr3 + 8
+            progr3 = progr3 + 8
+            textView67.text = "$progr3%"
+        } else {
+
+
+        }
+
+        val savedBoolean30 = sharedPreferences.getBoolean("linuxdanas", false)
+        val buttonkri24 = intent.getBooleanExtra("linuxdanasbt", false)
+        if (savedBoolean30== true) {
+            progressBar4.progress = progr3 + 8
+            progr3 = progr3 + 8
             textView67.text = "$progr3%"
 
         } else {
 
 
         }
-        val savedBoolean30 = sharedPreferences.getBoolean("gimp", false)
-        val buttonkri24 = intent.getBooleanExtra("gimpbt", false)
-        if (savedBoolean30 == true) {
-            progressBar4.progress = progr3 + 7
-            progr3 = progr3 + 7
-            textView67.text = "$progr3%"
-
-        } else {
-
-
-        }
-
-        val savedBoolean31 = sharedPreferences.getBoolean("colorchooser", false)
-        val buttonkri25 = intent.getBooleanExtra("colorchooserbt", false)
+        val savedBoolean31 = sharedPreferences.getBoolean("pdf", false)
+        val buttonkri25 = intent.getBooleanExtra("pdfbt", false)
         if (savedBoolean31 == true) {
             progressBar4.progress = progr3 + 7
             progr3 = progr3 + 7
@@ -345,8 +344,8 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean32 = sharedPreferences.getBoolean("kreiranjefajlova", false)
-        val buttonkri26 = intent.getBooleanExtra("kreiranjefajlovabt", false)
+        val savedBoolean32 = sharedPreferences.getBoolean("prikazivacislika", false)
+        val buttonkri26 = intent.getBooleanExtra("prikazivacislikabt", false)
         if (savedBoolean32 == true) {
             progressBar4.progress = progr3 + 7
             progr3 = progr3 + 7
@@ -356,8 +355,8 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean33 = sharedPreferences.getBoolean("navigacionekomande2", false)
-        val buttonkri27 = intent.getBooleanExtra("navigacionekomandebt", false)
+        val savedBoolean33 = sharedPreferences.getBoolean("gimp", false)
+        val buttonkri27 = intent.getBooleanExtra("gimpbt", false)
         if (savedBoolean33 == true) {
             progressBar4.progress = progr3 + 7
             progr3 = progr3 + 7
@@ -367,8 +366,9 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean34 = sharedPreferences.getBoolean("vieditor", false)
-        val buttonkri28 = intent.getBooleanExtra("vieditorbt", false)
+
+        val savedBoolean34 = sharedPreferences.getBoolean("colorchooser", false)
+        val buttonkri28 = intent.getBooleanExtra("colorchooserbt", false)
         if (savedBoolean34 == true) {
             progressBar4.progress = progr3 + 7
             progr3 = progr3 + 7
@@ -378,8 +378,8 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean35 = sharedPreferences.getBoolean("upravljanjefajlovima", false)
-        val buttonkri29 = intent.getBooleanExtra("upravljanjefajlovimabt", false)
+        val savedBoolean35 = sharedPreferences.getBoolean("kreiranjefajlova", false)
+        val buttonkri29= intent.getBooleanExtra("kreiranjefajlovabt", false)
         if (savedBoolean35 == true) {
             progressBar4.progress = progr3 + 7
             progr3 = progr3 + 7
@@ -389,9 +389,8 @@ class SveMape : AppCompatActivity() {
 
 
         }
-
-        val savedBoolean36 = sharedPreferences.getBoolean("najnovijikernel", false)
-        val buttonkri30 = intent.getBooleanExtra("najnovijikernelbt", false)
+        val savedBoolean36 = sharedPreferences.getBoolean("navigacionekomande2", false)
+        val buttonkri39 = intent.getBooleanExtra("navigacionekomandebt", false)
         if (savedBoolean36 == true) {
             progressBar4.progress = progr3 + 7
             progr3 = progr3 + 7
@@ -401,8 +400,8 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean37 = sharedPreferences.getBoolean("prilagođavanjekernela", false)
-        val buttonkri31 = intent.getBooleanExtra("prilagođavanjekernelabt", false)
+        val savedBoolean37 = sharedPreferences.getBoolean("vieditor", false)
+        val buttonkri31 = intent.getBooleanExtra("vieditorbt", false)
         if (savedBoolean37 == true) {
             progressBar4.progress = progr3 + 7
             progr3 = progr3 + 7
@@ -412,9 +411,43 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean38 = sharedPreferences.getBoolean("konfiguracijskimeni", false)
-        val buttonkri32 = intent.getBooleanExtra("konfiguracijskimenibt", false)
+        val savedBoolean38 = sharedPreferences.getBoolean("upravljanjefajlovima", false)
+        val buttonkri32 = intent.getBooleanExtra("upravljanjefajlovimabt", false)
         if (savedBoolean38 == true) {
+            progressBar4.progress = progr3 + 7
+            progr3 = progr3 + 7
+            textView67.text = "$progr3%"
+
+        } else {
+
+
+        }
+
+        val savedBoolean39 = sharedPreferences.getBoolean("najnovijikernel", false)
+        val buttonkri33 = intent.getBooleanExtra("najnovijikernelbt", false)
+        if (savedBoolean39 == true) {
+            progressBar4.progress = progr3 + 7
+            progr3 = progr3 + 7
+            textView67.text = "$progr3%"
+
+        } else {
+
+
+        }
+        val savedBoolean40 = sharedPreferences.getBoolean("prilagođavanjekernela", false)
+        val buttonkri34 = intent.getBooleanExtra("prilagođavanjekernelabt", false)
+        if (savedBoolean40 == true) {
+            progressBar4.progress = progr3 + 7
+            progr3 = progr3 + 7
+            textView67.text = "$progr3%"
+
+        } else {
+
+
+        }
+        val savedBoolean41 = sharedPreferences.getBoolean("konfiguracijskimeni", false)
+        val buttonkri35 = intent.getBooleanExtra("konfiguracijskimenibt", false)
+        if (savedBoolean41 == true) {
             progressBar4.progress = progr3 + 5
             progr3 = progr3 + 5
             textView67.text = "$progr3%"
@@ -423,9 +456,9 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean39 = sharedPreferences.getBoolean("uređajizaskladištenja", false)
-        val buttonkri33 = intent.getBooleanExtra("uređajizaskladištenjabt", false)
-        if (savedBoolean39 == true) {
+        val savedBoolean42 = sharedPreferences.getBoolean("uređajizaskladištenja", false)
+        val buttonkri36 = intent.getBooleanExtra("uređajizaskladištenjabt", false)
+        if (savedBoolean42 == true) {
             progressBar4.progress = progr3 + 8
             progr3 = progr3 + 8
             textView67.text = "$progr3%"
