@@ -21,7 +21,7 @@ class HomeActivitz : AppCompatActivity() {
         }
         val button3=findViewById<Button>(R.id.button8)
         button3.setOnClickListener{
-            val intent=Intent(this,NovaMapa::class.java)
+            val intent=Intent(this,Informacije::class.java)
             startActivity(intent)
         }
         val button4=findViewById<Button>(R.id.button10)
