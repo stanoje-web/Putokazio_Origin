@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Putokazio">
-        <activity android:name=".Informacije"></activity>
+        <activity android:name=".Vakcine"></activity>
+        <activity android:name=".KakoSeZastititi" />
+        <activity android:name=".KakoSeZastiti" />
+        <activity android:name=".OKoronaVirusu" />
+        <activity android:name=".Covid19" />
         <activity android:name=".Hosting" />
         <activity android:name=".Domen" />
         <activity android:name=".dns" />
