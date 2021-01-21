@@ -90,9 +90,13 @@
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="345dp"
-            android:layout_height="203dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
             android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Neke od Knjiga koje bi vam preporučio o Javi u radu u Android Studiu su 'Learn Java the Easy Way' od autora Bryson Payne i 'Learn Android Studio 4, 2nd Edition' od autora Ted Hagosa.Mi ćemo Javu spominjati dalje kada budemo odradili jednostavan primer aplikacije u Android Studiu"
             android:textColor="#2A5889"

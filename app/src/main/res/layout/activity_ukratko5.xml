@@ -64,7 +64,7 @@
             android:layout_marginBottom="17dp"
             android:text="Završeno"
             android:textColor="#2A5889"
-            android:textSize="23dp"
+            android:textSize="23sp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
 
