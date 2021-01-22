@@ -686,7 +686,50 @@ class SveMape : AppCompatActivity() {
                     val intent = Intent(this@SveMape, LinuxovKernel::class.java)
                     startActivity(intent)
 
-                } else {
+                }
+                else if (p0.equals("Covid") or p0.equals("covid19") or p0.equals("Covid19")or p0.equals("Covid-19")or p0.equals("covid-19")or p0.equals("covid")) {
+
+                    val intent = Intent(this@SveMape,Covid19::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("o covidu") or p0.equals("o koroni") or p0.equals("O Koroni")or p0.equals("O Covidu")or p0.equals("O covidu")or p0.equals("O koroni")) {
+
+                    val intent = Intent(this@SveMape,OKoronaVirusu::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("Vakcine") or p0.equals("Vakcina") or p0.equals("vakcine")or p0.equals("vakcina")) {
+
+                    val intent = Intent(this@SveMape,Vakcine::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("Internet") or p0.equals("internet")) {
+
+                    val intent = Intent(this@SveMape,Internet2::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("HTML") or p0.equals("html")) {
+
+                    val intent = Intent(this@SveMape,HTML::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("CSS") or p0.equals("css")) {
+
+                    val intent = Intent(this@SveMape,CSS::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("javascript") or p0.equals("JavaScript")) {
+
+                    val intent = Intent(this@SveMape,JavaScript::class.java)
+                    startActivity(intent)
+
+                }
+                else {
                     Toast.makeText(this@SveMape, "Nema traženog rezultata", Toast.LENGTH_SHORT)
                         .show()
                 }
