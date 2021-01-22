@@ -93,6 +93,7 @@
         android:fontFamily="@font/open_sans"
 
         android:text="Distribuiranje Aplikacije"
+        android:letterSpacing="0"
         android:textAllCaps="false"
         android:textColor="#FFFFFF"
         android:textColorHighlight="#FFFFFF"
