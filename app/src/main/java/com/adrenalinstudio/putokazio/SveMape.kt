@@ -84,8 +84,8 @@ class SveMape : AppCompatActivity() {
         val savedBoolean7 = sharedPreferences.getBoolean("toggleButton", false)
         val buttonkri2 = intent.getBooleanExtra("Username", false)
         if (savedBoolean7 == true) {
-            progressBar2.progress = progr1 + 3
-            progr1 = progr1 + 3
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
             textView69.text = "$progr1%"
 
         } else {
@@ -500,6 +500,94 @@ class SveMape : AppCompatActivity() {
             progressBar1.progress = progr + 33
             progr = progr + 33
             textView70.text = "$progr%"
+
+        } else {
+
+
+        }
+        val savedBoolean46 = sharedPreferences.getBoolean("http", false)
+        val buttonkri41 = intent.getBooleanExtra("httpbt", false)
+        if (savedBoolean46 == true) {
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
+            textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean47 = sharedPreferences.getBoolean("browser", false)
+        val buttonkri42 = intent.getBooleanExtra("browserbt", false)
+        if (savedBoolean47 == true) {
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
+            textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean48 = sharedPreferences.getBoolean("dns", false)
+        val buttonkri43 = intent.getBooleanExtra("dnsbt", false)
+        if (savedBoolean48 == true) {
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
+            textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean49 = sharedPreferences.getBoolean("domen", false)
+        val buttonkri44 = intent.getBooleanExtra("domenbt", false)
+        if (savedBoolean49 == true) {
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
+            textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean50 = sharedPreferences.getBoolean("hosting", false)
+        val buttonkri45 = intent.getBooleanExtra("hostingbt", false)
+        if (savedBoolean50 == true) {
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
+            textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean51 = sharedPreferences.getBoolean("html", false)
+        val buttonkri46 = intent.getBooleanExtra("htmlbt", false)
+        if (savedBoolean51 == true) {
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
+            textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean52 = sharedPreferences.getBoolean("css", false)
+        val buttonkri47 = intent.getBooleanExtra("cssbt", false)
+        if (savedBoolean52 == true) {
+            progressBar2.progress = progr1 + 11
+            progr1 = progr1 + 11
+            textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean53 = sharedPreferences.getBoolean("javascript", false)
+        val buttonkri48 = intent.getBooleanExtra("javascriptbt", false)
+        if (savedBoolean53 == true) {
+            progressBar2.progress = progr1 + 12
+            progr1 = progr1 + 12
+            textView69.text = "$progr1%"
 
         } else {
 
