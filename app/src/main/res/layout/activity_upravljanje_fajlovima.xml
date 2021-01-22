@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
 
-        android:padding="1dp"
+        android:padding="5dp"
         android:scrollbars="none"
         tools:context=".NovaMapa">
 
@@ -17,91 +17,97 @@
             android:id="@+id/imageButton7"
             android:layout_width="28dp"
             android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/back"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.041"
+            android:background="@drawable/ic_back"
+            android:src="@drawable/ic_back"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/back" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="17dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Upravljanje fajlovima"
             android:textColor="#2A5889"
-            android:textSize="23sp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.281"
-            app:layout_constraintStart_toEndOf="@+id/imageButton7"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.012" />
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView15"
-            android:layout_width="349dp"
-            android:layout_height="289dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Linux poseduje nekoliko komandi koje vam omogućavaju da čitate fajlove na različite načinie. Možete da proveravate različite vrste fajlova i možete da čitate fajlove od vrha ili od dna. Ovo čitanje može da bude ograničeno na nekoliko linija ili možete da čitate fajlove od vrha ili od dna.Ovo čitanje može da bude ograničeno na nekoliko linija ili možete da čitate stranicu po stranicu celokupnog fajla"
             android:textColor="#2A5889"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.593"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.121" />
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
         <TextView
             android:id="@+id/textView16"
-            android:layout_width="352dp"
-            android:layout_height="252dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Iako neke distribucije razlikuju vrste fajlova po boji,u Linuxu ne postoje standardne ekstenzije. Fajlovi u Linuxu mogu i da imaju i da nemaju ekstenzije. Izvršni fajlovi se ne završtavaju sa .exe, a fajlovi dokumenata ne moraju da se završavaju sa .doc.Komanda File vam omogućava da prikažete vrstu svakog fajla."
             android:textColor="#2A5889"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.644"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.499" />
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
         <TextView
             android:id="@+id/textView29"
-            android:layout_width="335dp"
-            android:layout_height="196dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Dozvole koje su povezane sa fajlom se dodeljuju vlasnicima grupama i svakom drugom na Linux računaru. Dozvole su zasnovane na karakterima koji se nalaze skroz na levoj strani izlaza. 10 karaktera određuje šta različiti korisnici mogu da rade sa ovim fajlom."
             android:textColor="#2A5889"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.759" />
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="908dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
             android:text="Završeno"
             android:textColor="#2A5889"
             android:textSize="23dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.867"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
 
         <ToggleButton
             android:id="@+id/toggleButtonDrawable1"
             android:layout_width="23dp"
             android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:height="38dp"
             android:background="@drawable/checkded"
             android:checked="true"
@@ -109,10 +115,7 @@
             android:textOn=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.953"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.993" />
+            app:layout_constraintTop_toBottomOf="@+id/textView29" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>
