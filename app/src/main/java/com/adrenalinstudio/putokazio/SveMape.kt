@@ -42,6 +42,7 @@ class SveMape : AppCompatActivity() {
         val androidbut = findViewById<Button>(R.id.button1)
         val linuxbt = findViewById<Button>(R.id.button3)
         val coronabt = findViewById<Button>(R.id.button24)
+        val backendbt = findViewById<Button>(R.id.button25)
 
         frontendbut.setOnClickListener {
             val intent = Intent(this, FrontendDevelop::class.java)
@@ -57,6 +58,10 @@ class SveMape : AppCompatActivity() {
         }
         coronabt.setOnClickListener {
             val intent = Intent(this, Covid19::class.java)
+            startActivity(intent)
+        }
+        backendbt.setOnClickListener {
+            val intent = Intent(this, Backend::class.java)
             startActivity(intent)
         }
 
@@ -87,6 +92,17 @@ class SveMape : AppCompatActivity() {
             progressBar2.progress = progr1 + 11
             progr1 = progr1 + 11
             textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean100 = sharedPreferences.getBoolean("toggleButton", false)
+        val buttonkri100 = intent.getBooleanExtra("Username", false)
+        if (savedBoolean100 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
 
         } else {
 
@@ -588,6 +604,94 @@ class SveMape : AppCompatActivity() {
             progressBar2.progress = progr1 + 12
             progr1 = progr1 + 12
             textView69.text = "$progr1%"
+
+        } else {
+
+
+        }
+        val savedBoolean54 = sharedPreferences.getBoolean("http", false)
+        val buttonkri49 = intent.getBooleanExtra("httpbt", false)
+        if (savedBoolean54 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
+
+        } else {
+
+
+        }
+        val savedBoolean55 = sharedPreferences.getBoolean("browser", false)
+        val buttonkri50 = intent.getBooleanExtra("browserbt", false)
+        if (savedBoolean55 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
+
+        } else {
+
+
+        }
+        val savedBoolean56 = sharedPreferences.getBoolean("dns", false)
+        val buttonkri51 = intent.getBooleanExtra("dnsbt", false)
+        if (savedBoolean56 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
+
+        } else {
+
+
+        }
+        val savedBoolean57 = sharedPreferences.getBoolean("domen", false)
+        val buttonkri52 = intent.getBooleanExtra("domenbt", false)
+        if (savedBoolean57 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
+
+        } else {
+
+
+        }
+        val savedBoolean58 = sharedPreferences.getBoolean("hosting", false)
+        val buttonkri53 = intent.getBooleanExtra("hostingbt", false)
+        if (savedBoolean58 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
+
+        } else {
+
+
+        }
+        val savedBoolean59 = sharedPreferences.getBoolean("php", false)
+        val buttonkri54 = intent.getBooleanExtra("phpbt", false)
+        if (savedBoolean59 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
+
+        } else {
+
+
+        }
+        val savedBoolean60 = sharedPreferences.getBoolean("csharp", false)
+        val buttonkri55 = intent.getBooleanExtra("csharpbt", false)
+        if (savedBoolean60 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
+
+        } else {
+
+
+        }
+        val savedBoolean61 = sharedPreferences.getBoolean("sql", false)
+        val buttonkri56 = intent.getBooleanExtra("sqlbt", false)
+        if (savedBoolean61 == true) {
+            progressBar3.progress = progr2 + 11
+            progr2 = progr2 + 11
+            textView68.text = "$progr2%"
 
         } else {
 
