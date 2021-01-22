@@ -4,41 +4,41 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/svijetlatema"
+    android:padding="10dp"
+    android:background="@drawable/ic_pozadina"
     tools:context=".UvodUAndroid">
+
     <ImageButton
         android:id="@+id/imageButton1"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:background="@drawable/back"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.07"
+        android:layout_marginStart="15dp"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="15dp"
+        android:background="@drawable/ic_back"
+        android:src="@drawable/ic_back"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.050000012"
-        app:srcCompat="@drawable/back" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
         android:fontFamily="@font/poppins_bold"
         android:text="O Linuxu"
         android:textColor="#2A5889"
-        android:textSize="24dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:textSize="22sp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.04000002" />
+        app:layout_constraintTop_toTopOf="parent" />
 
     <Button
         android:id="@+id/button20"
-        android:layout_width="300dp"
-        android:layout_height="51dp"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
 
+        android:layout_marginTop="30dp"
         android:fontFamily="@font/open_sans"
         android:text="Tvorac Linuxa"
         android:textAllCaps="false"
@@ -47,18 +47,15 @@
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.148"
+        app:layout_constraintTop_toBottomOf="@+id/textView"
         app:rippleColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button21"
-        android:layout_width="300dp"
-        android:layout_height="51dp"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
 
         android:fontFamily="@font/open_sans"
         android:text="Istorija Linuxa"
@@ -68,18 +65,15 @@
         android:textSize="23dp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button20"
-        app:layout_constraintVertical_bias="0.0"
         app:rippleColor="#FFFFFF" />
 
     <Button
         android:id="@+id/button22"
-        android:layout_width="300dp"
-        android:layout_height="51dp"
+        android:layout_width="315dp"
+        android:layout_height="55dp"
 
         android:fontFamily="@font/open_sans"
         android:text="Linux danas"
@@ -89,12 +83,9 @@
         android:textSize="23sp"
         app:backgroundTint="#2A5889"
         app:cornerRadius="15dp"
-        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.495"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/button21"
-        app:layout_constraintVertical_bias="0.0"
         app:rippleColor="#FFFFFF" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
