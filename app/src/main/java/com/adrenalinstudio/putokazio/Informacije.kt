@@ -16,4 +16,8 @@ class Informacije : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,HomeActivitz::class.java)
+        startActivity(intent)
+    }
 }
