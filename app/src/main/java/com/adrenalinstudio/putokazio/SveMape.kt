@@ -472,6 +472,39 @@ class SveMape : AppCompatActivity() {
 
 
         }
+        val savedBoolean43 = sharedPreferences.getBoolean("okoronavirusu", false)
+        val buttonkri37 = intent.getBooleanExtra("okoronavirusubt", false)
+        if (savedBoolean43 == true) {
+            progressBar1.progress = progr + 34
+            progr = progr + 34
+            textView70.text = "$progr%"
+
+        } else {
+
+
+        }
+        val savedBoolean44 = sharedPreferences.getBoolean("kakosezastititi", false)
+        val buttonkri38 = intent.getBooleanExtra("kakosezastititibt", false)
+        if (savedBoolean44 == true) {
+            progressBar1.progress = progr + 33
+            progr = progr + 33
+            textView70.text = "$progr%"
+
+        } else {
+
+
+        }
+        val savedBoolean45 = sharedPreferences.getBoolean("vakcine", false)
+        val buttonkri40 = intent.getBooleanExtra("vakcinebt", false)
+        if (savedBoolean45 == true) {
+            progressBar1.progress = progr + 33
+            progr = progr + 33
+            textView70.text = "$progr%"
+
+        } else {
+
+
+        }
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(p0: String?): Boolean {
 
