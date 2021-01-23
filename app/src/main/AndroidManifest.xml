@@ -9,74 +9,97 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Putokazio">
-        <activity android:name=".PravljenjeRepozitorijuma"></activity>
-        <activity android:name=".GitPodesavanja"
+        <activity android:name=".Literatura"></activity>
+        <activity android:name=".PravljenjeRepozitorijuma" />
+        <activity
+            android:name=".GitPodesavanja"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".KomandnaLinija"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KomandnaLinija"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".OsnoveGita"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OsnoveGita"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".OKontroliVerzije"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OKontroliVerzije"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Git"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Git"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Internet3"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Internet3"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Backend"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Backend"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".HTML"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HTML"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".CSS"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CSS"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".CSharp"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CSharp"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".sql"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sql"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".php"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".php"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Informacije"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Informacije"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Vakcine"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Vakcine"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".KakoSeZastititi"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KakoSeZastititi"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity android:name=".KakoSeZastiti" />
-        <activity android:name=".OKoronaVirusu"
+        <activity
+            android:name=".OKoronaVirusu"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Covid19"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Covid19"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Hosting"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hosting"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Domen"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Domen"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".dns"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dns"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".Browser"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browser"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
-        <activity android:name=".HTTP"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HTTP"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".KonfiguracijskiMeni"
             android:noHistory="true"
@@ -310,9 +333,10 @@
             android:noHistory="true"
             android:screenOrientation="portrait" />
         <activity android:name=".JavaScriptSintaksa" />
-        <activity android:name=".JavaScript"
+        <activity
+            android:name=".JavaScript"
             android:noHistory="true"
-            android:screenOrientation="portrait"/>
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"

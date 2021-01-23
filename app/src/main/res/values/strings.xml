@@ -1,4 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
 <resources>
+
     <string name="app_name">Putokazio</string>
     <string name="title_activity_main2">MainActivity</string>
     <!-- Strings used for fragments for navigation -->
@@ -59,6 +61,12 @@ Ako ste do sada bili zdravi, vaš izbor je sledeći: možete uzeti vakcinu, i ri
         <a href="https://medium.com/science-in-serbia-nauka-u-srbiji/kraj-2020-%C5%A1ta-re%C4%87i-koju-vakcinu-odabrati-3bfd09bffd34">Izvor</a>
 
     </string>
+    <string name="literatura">Izvori:</string>
+    <string name="wikipedia"><a href="https://www.wikipedia.org/">Wikipedia</a></string>
+    <string name="head_first_kotlin"><a href="https://www.oreilly.com/library/view/head-first-kotlin/9781491996683/">Head First Kotlin</a></string>
+    <string name="learn_android_studio_4"><a href="https://www.apress.com/gp/book/9781484259368">Learn Android Studio 4</a></string>
+    <string name="red_hat_enterprise_linux_6_administration"><a href="https://www.sandervanvugt.com/book-red-hat-enterprise-linux-6-administration/">Red Hat Enterprise Linux 6 Administration</a></string>
+    <string name="pro_git_2nd_edition"><a href="https://git-scm.com/book/sr/v2">Pro Git 2nd Edition</a></string>
 
 
 </resources>
