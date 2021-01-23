@@ -943,13 +943,3 @@ class SveMape : AppCompatActivity() {
 
 
 
-
-
-
-
-
-
-
-
-
-

@@ -30,4 +30,8 @@ class php : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,Backend::class.java)
+        startActivity(intent)
+    }
 }

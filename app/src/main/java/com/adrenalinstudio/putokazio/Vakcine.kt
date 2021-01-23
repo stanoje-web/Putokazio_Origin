@@ -34,4 +34,8 @@ class Vakcine : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,Covid19::class.java)
+        startActivity(intent)
+    }
 }

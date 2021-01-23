@@ -30,4 +30,8 @@ class NajnovijiKernel : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,LinuxovKernel::class.java)
+        startActivity(intent)
+    }
 }

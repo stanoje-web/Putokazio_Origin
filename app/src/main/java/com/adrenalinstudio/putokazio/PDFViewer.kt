@@ -30,4 +30,8 @@ class PDFViewer : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,GrafickiProgrami::class.java)
+        startActivity(intent)
+    }
 }

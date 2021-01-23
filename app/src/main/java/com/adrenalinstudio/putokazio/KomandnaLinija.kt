@@ -30,4 +30,8 @@ class KomandnaLinija : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,Git::class.java)
+        startActivity(intent)
+    }
 }

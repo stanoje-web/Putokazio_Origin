@@ -34,4 +34,8 @@ class Podesavanja : AppCompatActivity() {
         val textView=findViewById<TextView>(R.id.textView15)
         textView.movementMethod = LinkMovementMethod.getInstance()
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,Androidstd::class.java)
+        startActivity(intent)
+    }
 }

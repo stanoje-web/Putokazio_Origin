@@ -30,4 +30,8 @@ class IstorijaLinuxa : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,Olinuxu::class.java)
+        startActivity(intent)
+    }
 }

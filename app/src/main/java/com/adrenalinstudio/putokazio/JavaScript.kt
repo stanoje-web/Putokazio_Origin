@@ -30,4 +30,8 @@ class JavaScript : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,FrontendDevelop::class.java)
+        startActivity(intent)
+    }
 }

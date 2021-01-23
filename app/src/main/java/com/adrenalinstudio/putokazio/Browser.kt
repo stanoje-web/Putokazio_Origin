@@ -30,4 +30,9 @@ class Browser : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,Internet2::class.java)
+        startActivity(intent)
+}
+
 }

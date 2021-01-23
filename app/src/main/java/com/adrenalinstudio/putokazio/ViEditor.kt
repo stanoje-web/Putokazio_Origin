@@ -30,4 +30,8 @@ class ViEditor : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,InterfejsKomandneLinije::class.java)
+        startActivity(intent)
+    }
 }
