@@ -415,7 +415,7 @@ class SveMape : AppCompatActivity() {
 
 
         }
-        val savedBoolean36 = sharedPreferences.getBoolean("navigacionekomande2", false)
+        val savedBoolean36 = sharedPreferences.getBoolean("navigacionekomande", false)
         val buttonkri39 = intent.getBooleanExtra("navigacionekomandebt", false)
         if (savedBoolean36 == true) {
             progressBar4.progress = progr3 + 7
