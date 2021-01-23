@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:padding="5dp"
+        android:scrollbars="none"
+        tools:context=".OKontroliVerzije">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_back"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="O kontroli verzije"
+            android:textColor="#2A5889"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Šta je 'kontrola verzije', i zašto bi vas to zanimalo? Kontrola verzije je sistem koji pamti promjene fajla ili skupa fajlova tokom vremena kako biste mogli da se vratite na određene verzije kasnije. Za primjere u ovoj mapi koristićemo izvorni kôd softvera kao fajlove nad kojima se primenjuje kontrola verzije, ali u stvarnosti ovakav pristup bi radio sa skoro svakom vrstom fajlova na računaru.\n\nAko ste grafički ili veb dizajner i želite da sačuvate svaku verziju slike ili makete (što je dobra praksa), vrlo je mudra ideja koristiti sistem za kontrolu verzije (Version Control System, VCS, u daljem tekstu SKV ili VCS). Dozvoljava vam da vratite fajlove na pređašnje stanje, da vratite čitav projekat na pređašnje stanje, da poredite izmene tokom vremena, da vidite ko je poslednji modifikivao nešto što bi moglo da bude uzrok problema koji je nastao, ko je objavio da postoji neki problem i kada, i još mnogo toga. U opštem slučaju, korišćenje VCS-a znači i to da ako nešto zabrljate ili izgubite fajlove, lako možete da ih povratite. Štaviše, dobijate sve ovo uz veoma malo muke.\n\nOvi sistemi mogu biti lokalni, centralizovani i distribuirani. Zavisno od potreba korisnika i složenosti projekta se koristi odgovarajući VCS. Najbolji su distribuirani."
+            android:textColor="#2A5889"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="Završeno"
+            android:textColor="#2A5889"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonDrawable1"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:height="38dp"
+            android:background="@drawable/checkded"
+            android:checked="true"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView18" />
+
+        <ImageView
+            android:id="@+id/imageView18"
+            android:layout_width="354dp"
+            android:layout_height="235dp"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            app:srcCompat="@drawable/git" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

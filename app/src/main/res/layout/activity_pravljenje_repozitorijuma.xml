@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:scrollbars="none"
+        tools:context=".PravljenjeRepozitorijuma">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_back"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Podešavanja"
+            android:textColor="#2A5889"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Ako postoji jedno poglavlje koje je dovoljno pročitati da biste mogli da se snađete u Gitu, onda je to ovo. Ovo poglavlje pokriva svaku osnovnu komandu koja će vam biti potrebna da biste obavili veliku većinu stvari koje ćete najčešće raditi dok budete koristili Git. Kad završite s ovim poglavljem, moći ćete da konfigurišete i inicijalizujete repozitorijum, da počnete i prestanete da pratite fajlove, i da stejdžujete i komitujete promene. Pokazaćemo vam i kako da brzo podesite Git da ignoriše neke fajlove i tipove fajlova, kako da opovrgnete greške brzo i lako, kako da pretražite istoriju projekta i pogledate promene između komitova, i kako da gurnete i povučete (push i pull) fajlove sa udaljenih repozitorijuma.\n\nPravljenje Git repozitorijuma\nMožete da pribavite Git projekat na jedan od dva osnovna načina. Prvi uzima postojeći projekat ili direktorijum i importuje Git u njega. Drugi klonira postojeći Git repozitorijum sa drugog servera.\n\nInicijalizacija repozitorijuma u postojećem direktorijumu\nAko počinjete da pratite postojeći projekat koristeći Git, treba da odete do direktorijuma projekta i ukucate:\n\n$ git init\n\nOvo pravi novi poddirektorijum s imenom .git koji sadrži sve neophodne fajlove - skelet za Git repozitorijum. U ovom trenutku, ništa se još ne prati. (Pogledajte Git iznutra za više informacija o tome šta su tačno fajlovi koji se nalaze u .git direktorijumu koji ste upravo napravili.)\n\nAko želite da počnete sa kontrolom verzije postojećih fajlova (spram praznog direktorijuma), verovatno bi trebalo da počnete da pratite te fajlove i da učinite inicijalni komit. To možete postići sa nekoliko git add komandi koje specificiraju fajlove koje želite da pratite, a zatim ukucajte komandu git commit:\n\n$ git add *.c\n$ git add LICENSE\n$ git commit -m 'inicijalna verzija projekta'\n\nObradićemo šta rade ove komande za koji minut. Sada imate Git repozitorijum sa praćenim fajlovima i inicijalnim komitom.\n\nKloniranje postojećeg repozitorijuma\nAko želite da pribavite kopiju postojećeg Git repozitorijuma — na primer, projekat kojem biste želeli da doprinesete — komanda koja vam je potrebna je git clone. Ako ste upoznati sa drugim VCS sistemima kao što je Subversion, primetićete da je komanda clone a ne checkout. Ovo je bitna razlika - umesto da pravi samo radnu kopiju, Git prima celu kopiju skoro svih podataka koje ima server. Svaka verzija svakog fajla cele istorije projekta se povlači kada se pokrene git clone. Zapravo, ako dođe do greške na disku sa servera, najčešće možete da iskoristite skoro svaki od klonova koji klijenti imaju da biste vratili server u stanje u kome je bio kada je kloniran (možete da izgubite neka podešavanja sa strane servera, ali svi verzionisani podaci bi bili tu — pogledajte Git on the Server za više detalja).\n\nRepozitorijum se klonira sa git clone [url]. Na primer, ako hoćete da klonirate Git vezivnu biblioteku koja se zove libgit2, možete to da uradite ovako:\n\n$ git clone https://github.com/libgit2/libgit2\n\nOvo pravi direktorijum sa imenom libgit2, incijalizuje .git direktorijum u njemu, povlači sve podatke sa tog repozitorijuma i čekautuje radnu kopiju poslednje verzije. Ako odete u novi libgit2 direktorijum, videćete sve fajlove iz projekta tamo, spremne za rad nad njima ili korišćenje. Ako želite da klonirate repozitorijum u nešto što se ne zove &#34;libgit2&#34;, možete specificirati to pomoću sledeće komande:\n\n$ git clone https://github.com/libgit2/libgit2 mylibgit\n\nTa komanda radi isto što i prethodna, s tim što se odredišni direktorijum zove mylibgit.\n\nGit ima veliki broj različitih transfer protokola koje možete da koristite. Prethodni primer koristi https:// protokol, ali možete da koristite i git:// ili korisnik@server:putanja/do/repozitorijuma.git, koji koristi SSH transfer protokol. Git on the Server će predstaviti sve dostupne opcije koje može imati server za pristupanje Git repozitorijumu, kao i prednosti i mane svakog od njih."
+            android:textColor="#2A5889"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="Završeno"
+            android:textColor="#2A5889"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonDrawable1"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:height="38dp"
+            android:background="@drawable/checkded"
+            android:checked="true"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>
