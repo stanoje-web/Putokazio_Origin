@@ -17,10 +17,10 @@
             android:id="@+id/imageButton7"
             android:layout_width="28dp"
             android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
             android:background="@drawable/back"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.041"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             app:srcCompat="@drawable/back" />
@@ -29,29 +29,29 @@
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
+            android:layout_marginTop="17dp"
             android:fontFamily="@font/poppins_bold"
             android:text="Uvod u JavaScript"
             android:textColor="#2A5889"
             android:textSize="22sp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.008" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView15"
-            android:layout_width="396dp"
-            android:layout_height="587dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="JavaScript je dinaničan, slabo tipiziran i interpretiran jezik visokog nivoa. Pored HTML-a i CSS-a, JS je jedna od 3 vodeće tehnologije za definisanje sadržaja na internetu; većina veb-sajtova koristi JavuScript a većina  veb-čitača podržava bez potrebe za instaliranjem dodataka. Kombinovan sa HTML-om i CSS-om čini DHTML(Dynamic HTML). JavaScript podržava: objektno-orijentisani, imperativni i funkcionalni način programiranja. JavaScript ne sadrži API za skladištenje podataka  ili grafičke funkcionalnosti zbog čega se oslanja na okruženje u kome se izvršava. Iako na prvo pogled možemo reći da JavaScript ima sličnosti sa Javom, kao što su naziv, sintaksa i standardne biblioteke, oni su 2 potpuno različita programska jezika. JS se pored veba koristi u drugim okruženjima: PDF dokumentima, veb-čitači za specifične veb-sajotve, desktop vidžete, video igre, desktop i mobilne aplikacije kao i u server-side programiranju (Node.js.)"
             android:textColor="#2A5889"
             android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/imageView19" />
 
@@ -59,6 +59,10 @@
             android:id="@+id/toggleButtonDrawable1"
             android:layout_width="23dp"
             android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:height="38dp"
             android:background="@drawable/checkded"
             android:checked="true"
@@ -66,21 +70,31 @@
             android:textOn=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.963"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
             app:layout_constraintVertical_bias="0.992" />
 
         <ImageView
             android:id="@+id/imageView19"
             android:layout_width="129dp"
             android:layout_height="129dp"
-            android:layout_marginTop="16dp"
+            android:layout_marginTop="30dp"
             android:src="@drawable/ic_javascript"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="Završeno"
+            android:textColor="#2A5889"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 </ScrollView>

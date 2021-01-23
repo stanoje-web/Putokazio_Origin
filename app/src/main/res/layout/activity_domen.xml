@@ -1,91 +1,92 @@
 <?xml version="1.0" encoding="utf-8"?>
-<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
-    xmlns:tools="http://schemas.android.com/tools"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent">
-
-    <androidx.constraintlayout.widget.ConstraintLayout
+    <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        xmlns:tools="http://schemas.android.com/tools"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="match_parent"
 
         android:padding="5dp"
         android:scrollbars="none"
         tools:context=".NovaMapa">
 
-        <ImageButton
-            android:id="@+id/imageButton7"
-            android:layout_width="28dp"
-            android:layout_height="28dp"
-            android:layout_marginTop="20dp"
-            android:background="@drawable/back"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.041"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/back" />
+    <ImageButton
+        android:id="@+id/imageButton7"
+        android:layout_width="28dp"
+        android:layout_height="28dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/ic_back"
+        android:src="@drawable/ic_back"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView14"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/poppins_bold"
-            android:text="Domen"
-            android:textColor="#2A5889"
-            android:textSize="22sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.498"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.008" />
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="17dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Domen"
+        android:textColor="#2A5889"
+        android:textSize="22sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:fontFamily="@font/open_sans"
-            android:text='Internet domen je tekstualna oznaka koja identifikuje skup uređaja ili internet servisa, povezujućih u jedinstvenu celinu. Domen se sastoji iz niza alfanumeričkih segmenata, odvojenih tačkama. Neki od popularnih domena: .org, .com, .net, .ba, .net'
-            android:textColor="#2A5889"
-            android:textSize="18sp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="1.0"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.234" />
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="25dp"
+        android:layout_marginRight="25dp"
+        android:fontFamily="@font/open_sans"
+        android:text='Internet domen je tekstualna oznaka koja identifikuje skup uređaja ili internet servisa, povezujućih u jedinstvenu celinu. Domen se sastoji iz niza alfanumeričkih segmenata, odvojenih tačkama. Neki od popularnih domena: .org, .com, .net, .ba, .net'
+        android:textColor="#2A5889"
+        android:textSize="18sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView14" />
 
-        <ToggleButton
-            android:id="@+id/toggleButtonDrawable1"
-            android:layout_width="23dp"
-            android:layout_height="23dp"
-            android:height="38dp"
-            android:background="@drawable/checkded"
-            android:checked="true"
-            android:textOff=""
-            android:textOn=""
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.958"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.956" />
+    <ToggleButton
+        android:id="@+id/toggleButtonDrawable1"
+        android:layout_width="23dp"
+        android:layout_height="23dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:height="38dp"
+        android:background="@drawable/checkded"
+        android:checked="true"
+        android:textOff=""
+        android:textOn=""
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
-        <ImageView
-            android:id="@+id/imageView19"
-            android:layout_width="129dp"
-            android:layout_height="129dp"
-            android:layout_marginStart="140dp"
-            android:layout_marginLeft="140dp"
-            android:layout_marginTop="16dp"
-            android:layout_marginEnd="140dp"
-            android:layout_marginRight="140dp"
-            android:src="@drawable/ic_domain"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="129dp"
+        android:layout_height="129dp"
+        android:layout_marginTop="15dp"
+        android:src="@drawable/ic_domain"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView15" />
 
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="15dp"
+        android:layout_marginRight="15dp"
+        android:layout_marginBottom="17dp"
+        android:text="Završeno"
+        android:textColor="#2A5889"
+        android:textSize="23dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>
-</ScrollView>
