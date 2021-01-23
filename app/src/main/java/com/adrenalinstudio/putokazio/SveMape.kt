@@ -43,6 +43,7 @@ class SveMape : AppCompatActivity() {
         val linuxbt = findViewById<Button>(R.id.button3)
         val coronabt = findViewById<Button>(R.id.button24)
         val backendbt = findViewById<Button>(R.id.button25)
+        val gitbt = findViewById<Button>(R.id.button26)
 
         frontendbut.setOnClickListener {
             val intent = Intent(this, FrontendDevelop::class.java)
@@ -62,6 +63,10 @@ class SveMape : AppCompatActivity() {
         }
         backendbt.setOnClickListener {
             val intent = Intent(this, Backend::class.java)
+            startActivity(intent)
+        }
+        gitbt.setOnClickListener {
+            val intent = Intent(this, Git::class.java)
             startActivity(intent)
         }
 
@@ -697,6 +702,60 @@ class SveMape : AppCompatActivity() {
 
 
         }
+        val savedBoolean62 = sharedPreferences.getBoolean("kontrola", false)
+        val buttonkri57 = intent.getBooleanExtra("kontrolabt", false)
+        if (savedBoolean62 == true) {
+            progressBar6.progress = progr5 + 20
+            progr5 = progr5 + 20
+            textView65.text = "$progr5%"
+
+        } else {
+
+
+        }
+        val savedBoolean63 = sharedPreferences.getBoolean("osnovegita", false)
+        val buttonkri58 = intent.getBooleanExtra("osnovegitabt", false)
+        if (savedBoolean63 == true) {
+            progressBar6.progress = progr5 + 20
+            progr5 = progr5 + 20
+            textView65.text = "$progr5%"
+
+        } else {
+
+
+        }
+        val savedBoolean64 = sharedPreferences.getBoolean("komandnalinija", false)
+        val buttonkri59 = intent.getBooleanExtra("komandnalinijabt", false)
+        if (savedBoolean64 == true) {
+            progressBar6.progress = progr5 + 20
+            progr5 = progr5 + 20
+            textView65.text = "$progr5%"
+
+        } else {
+
+
+        }
+        val savedBoolean65 = sharedPreferences.getBoolean("gitpodesavanja", false)
+        val buttonkri60 = intent.getBooleanExtra("gitpodesavanjabt", false)
+        if (savedBoolean65 == true) {
+            progressBar6.progress = progr5 + 20
+            progr5 = progr5 + 20
+            textView65.text = "$progr5%"
+
+        } else {
+
+
+        }
+        val savedBoolean66 = sharedPreferences.getBoolean("repozitorijum", false)
+        val buttonkri61 = intent.getBooleanExtra("repozitorijumbt", false)
+        if (savedBoolean66 == true) {
+            progressBar6.progress = progr5 + 20
+            progr5 = progr5 + 20
+            textView65.text = "$progr5%"
+        } else {
+
+
+        }
         searchView.setOnQueryTextListener(object : SearchView.OnQueryTextListener {
             override fun onQueryTextSubmit(p0: String?): Boolean {
 
@@ -830,6 +889,30 @@ class SveMape : AppCompatActivity() {
                 else if (p0.equals("javascript") or p0.equals("JavaScript")) {
 
                     val intent = Intent(this@SveMape,JavaScript::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("php") or p0.equals("PHP")or p0.equals("Php")) {
+
+                    val intent = Intent(this@SveMape,php::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("SQL") or p0.equals("sql")or p0.equals("Sql")) {
+
+                    val intent = Intent(this@SveMape,sql::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("C#") or p0.equals("c#")or p0.equals("Csharp")or p0.equals("csharp")or p0.equals("CSharp")) {
+
+                    val intent = Intent(this@SveMape,CSharp::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("GIT") or p0.equals("Git")or p0.equals("git")) {
+
+                    val intent = Intent(this@SveMape,Git::class.java)
                     startActivity(intent)
 
                 }
