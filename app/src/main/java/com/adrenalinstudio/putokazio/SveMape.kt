@@ -667,7 +667,7 @@ class SveMape : AppCompatActivity() {
         val savedBoolean59 = sharedPreferences.getBoolean("php", false)
         val buttonkri54 = intent.getBooleanExtra("phpbt", false)
         if (savedBoolean59 == true) {
-            progressBar3.progress = progr2 + 11
+            progressBar3.progress = progr2 + 12
             progr2 = progr2 + 11
             textView68.text = "$progr2%"
 
