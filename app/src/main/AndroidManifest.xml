@@ -9,8 +9,12 @@
         android:roundIcon="@mipmap/logo"
         android:supportsRtl="true"
         android:theme="@style/Theme.Putokazio">
-        <activity android:name=".Literatura"></activity>
-        <activity android:name=".PravljenjeRepozitorijuma" />
+        <activity android:name=".Literatura"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PravljenjeRepozitorijuma"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
         <activity
             android:name=".GitPodesavanja"
             android:noHistory="true"

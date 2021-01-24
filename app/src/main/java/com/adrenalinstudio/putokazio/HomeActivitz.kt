@@ -25,6 +25,10 @@ class HomeActivitz : AppCompatActivity() {
             startActivity(intent)
         }
         val button4=findViewById<Button>(R.id.button10)
+        button4.setOnClickListener{
+            val intent=Intent(this,Literatura::class.java)
+            startActivity(intent)
+        }
 
 
     }
