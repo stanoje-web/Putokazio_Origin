@@ -768,10 +768,7 @@ class SveMape : AppCompatActivity() {
                     val intent = Intent(this@SveMape, KakoRadiInternet::class.java)
                     startActivity(intent)
 
-                } else if (p0.equals("Android") or p0.equals("android") or p0.equals("Android Developer") or p0.equals(
-                        "android developer"
-                    )
-                ) {
+                } else if (p0.equals("Android") or p0.equals("android") or p0.equals("Android Developer") or p0.equals("android developer")or p0.equals("Android developer")) {
 
                     val intent = Intent(this@SveMape, androidale::class.java)
                     startActivity(intent)
@@ -882,6 +879,12 @@ class SveMape : AppCompatActivity() {
 
                 }
                 else if (p0.equals("javascript") or p0.equals("JavaScript")) {
+
+                    val intent = Intent(this@SveMape,JavaScript::class.java)
+                    startActivity(intent)
+
+                }
+                else if (p0.equals("backend") or p0.equals("Backend")or p0.equals("Backend developer")or p0.equals("backend developer")) {
 
                     val intent = Intent(this@SveMape,JavaScript::class.java)
                     startActivity(intent)
