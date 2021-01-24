@@ -58,12 +58,12 @@
         android:id="@+id/button10"
         android:layout_width="295dp"
         android:layout_height="66dp"
-        android:drawableLeft="@drawable/ic_settings"
+        android:drawableLeft="@drawable/ic_book"
         android:fontFamily="@font/poppins_medium"
         android:letterSpacing="0"
         android:gravity="left|center_vertical"
         android:textColor="@color/white"
-        android:text=" Podešavanja"
+        android:text=" Literatura"
         android:textAllCaps="false"
         android:textSize="22sp"
         app:backgroundTint="#2A5889"
@@ -83,12 +83,10 @@
         android:layout_marginTop="65dp"
         android:layout_marginEnd="166dp"
         android:layout_marginRight="166dp"
-        app:layout_constraintBottom_toBottomOf="parent"
+        android:src="@drawable/ic_logosvg"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.013"
-        android:src="@drawable/ic_logosvg" />
+        app:layout_constraintTop_toTopOf="parent" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

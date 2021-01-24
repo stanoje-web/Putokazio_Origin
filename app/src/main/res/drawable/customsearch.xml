@@ -8,5 +8,4 @@
         android:color="#2A5889"
         android:width="4dp"/>
     <solid android:color="#fff" />
-
 </shape>

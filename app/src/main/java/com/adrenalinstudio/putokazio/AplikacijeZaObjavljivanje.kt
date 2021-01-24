@@ -30,4 +30,8 @@ class AplikacijeZaObjavljivanje : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,DistribuiranjeAplikacije::class.java)
+        startActivity(intent)
+    }
 }

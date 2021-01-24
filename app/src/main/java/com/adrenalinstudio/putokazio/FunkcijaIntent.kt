@@ -30,4 +30,8 @@ class FunkcijaIntent : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,NapraviAplikaciju::class.java)
+        startActivity(intent)
+    }
 }

@@ -30,4 +30,8 @@ class CfgAnd : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,Androidstd::class.java)
+        startActivity(intent)
+    }
 }

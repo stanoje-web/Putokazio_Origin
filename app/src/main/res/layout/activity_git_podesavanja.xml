@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:scrollbars="none"
+        tools:context=".GitPodesavanja">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_back"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Podešavanja"
+            android:textColor="#2A5889"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Sada kada imate instaliran Git na sistemu, treba da uradite nekoliko stvari da prilagodite sebi svoje Git okruženje. Ove stvari treba uraditi samo jednom na svakom računaru; zadržavaju se između apgrejdova. Možete ih promeniti bilo kada ponovnim pokretanjem komandi.\n\nGit dolazi sa alatom koji se zove git config koji vam omogućuje da pribavljate i postavljate konfiguracione promenljive koje kontrolišu sve aspekte Gitovog izgleda i rada. Ove promenljive mogu se nalaziti na tri različita mesta:\n\n/etc/gitconfig fajl: Sadrži vrednosti za svakog korisnika na sistemu i sve njihove repozitorijume. Ako prosledite opciju --system komandi git config, vrši se čitanje i upis u ovaj fajl.\n\n~/.gitconfig ili ~.config/git/config fajl: Specifično za korisnika. Možete da primorate Git da piše i čita iz ovog fajla tako što prosledite --global opciju.\n\nconfig fajl u Git direktorijumu (odnosno .git/config) koji god repozitorijum da trenutno koristite: Specifično za taj repozitorijum.\n\nSvaki nivo preklapa vrednosti iz prethodnog nivoa, na primer vrednosti u .git/config određuju one u /etc/gitconfig.\n\nNa Vindouzovim sistemima, Git traži .gitconfig fajl u $HOME direktorijumu (za većinu ljudi je to C:\Users\$USER). Takođe traži /etc/config, mada je to relativno MSys korenu, što je gdegod odlučite da instalirate Git na Vindouz sistemu kada pokrenete instalaciju. Međutim, ako koristite 2.x ili kasniju verziju Gita za Vindouz, putanja je C:\Documents and Settings\All Users\Application Data\Git\config na Vindouz XP-u i C:\ProgramData\Git\config na Vindouz Visti i novijim verzijama. Ovaj konfiguracioni fajl se može promeniti samo pokretanjem git config -f &#60;fajl&#62; uz administratorske privilegije.\n\nVaš identitet\nPrva stvar koju treba da uradite kada instalirate Git je da podesite korisničko ime i mejl adresu. Ovo je važno jer svaki Git komit koristi ove podatke, i nepromenljivo se urezuje u komitove koje kreirate:\n\n$ git config --global user.name &#34;Petar Petrovic&#34;\n$ git config --global user.email petarpetrovic@primer.com\n\nOpet, ovo treba da uradite samo jednom ako prosledite --global opciju, jer će onda Git uvek koristiti te podatke za sve što radi na tom sistemu. Ako želite da preklopite ovo drugim imenom ili mejl adresom za specifične projekte, možete da pokrenete komandu bez --global opcije kada se nalazite u tom projektu.\n\nMnogi GUI alati će vam pomoći da uradite ovo kada ih prvi put pokrenete.\n\nVaš editor\nSada kada je vaš identitet podešen, možete da konfigurišete podrazumijevani editor teksta koji će se koristiti kada Git od vas zahteva da ukucate poruku. Ako nije konfigurisan, Git koristi podrazumijevani editor vašeg sistema, što je najčešće Vim. Ako želite da koristite drugi editor teksta, kao što je Emacs, možete uraditi sledeće:\n\n$ git config --global core.editor emacs\n\nNa Vindouz sistemu, ukoliko želite da koristite drugi editor, to možete uraditi na sledeći način.\n\nNa x86 sistemu:\n\n$ git config --global core.editor &#34;'C:/Program Files/Notepad++/notepad++.exe' -multiInst -nosession&#34;\n\nNa x64 sistemu:\n\n$ git config --global core.editor &#34;'C:/Program Files (x86)/Notepad++/notepad++.exe' -multiInst -nosession&#34;\n\n&#42;&#42;&#42;Traženje pomoći&#42;&#42;&#42;\n\nAko vam ikad bude bila potrebna pomoć dok koristite Git, postoje tri načina da dođete do stranice sa upustvom (manual page i skraćeno manpage) za bilo koju od Gitovih komandi:\n\n$ git help &#60;glagol&#62;\n$ git &#60;glagol&#62; --help\n$ man git-&#60;glagol&#62;\n\nNa primer, možete da dobijete manpage za config komandu pokretanjem\n\n$ git help config\n\nOve komande su dobre jer im možete pristupiti odakle god poželite, čak i ako ste oflajn. Ako pomoćne stranice koje tako dobijete i ova knjiga nisu dovoljne i potrebna vam je pomoć neke osobe, možete da probate #git ili #github kanale na Freenode IRC serveru (irc.freenode.net). Na ovim kanalima se obično nalazi na stotine ljudi koji puno toga znaju o Gitu i često su voljni da pomognu."
+            android:textColor="#2A5889"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="Završeno"
+            android:textColor="#2A5889"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonDrawable1"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:height="38dp"
+            android:background="@drawable/checkded"
+            android:checked="true"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

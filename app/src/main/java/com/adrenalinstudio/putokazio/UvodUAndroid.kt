@@ -59,4 +59,8 @@ class UvodUAndroid : AppCompatActivity() {
         }
 
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,androidale::class.java)
+        startActivity(intent)
+    }
 }

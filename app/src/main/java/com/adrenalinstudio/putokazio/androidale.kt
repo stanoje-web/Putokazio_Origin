@@ -214,4 +214,8 @@ class androidale : AppCompatActivity() {
         } else {
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,SveMape::class.java)
+        startActivity(intent)
+    }
     }

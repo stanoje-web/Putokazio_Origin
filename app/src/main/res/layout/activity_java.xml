@@ -8,7 +8,6 @@
     <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:background="@drawable/svijetlatema"
 
         android:padding="5dp"
         android:scrollbars="none"
@@ -18,105 +17,115 @@
             android:id="@+id/imageButton7"
             android:layout_width="28dp"
             android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
             android:layout_marginTop="20dp"
-            android:background="@drawable/back"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.041"
+            android:background="@drawable/ic_back"
+            android:src="@drawable/ic_back"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:srcCompat="@drawable/back" />
+            app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
             android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dp"
-            android:fontFamily="@font/montserrat_bold"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_bold"
             android:text="Java"
             android:textColor="#2A5889"
-            android:textSize="25dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:textSize="22sp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.01999998" />
-
-        <TextView
-            android:id="@+id/textView15"
-            android:layout_width="347dp"
-            android:layout_height="190dp"
-            android:fontFamily="@font/open_sans"
-            android:text="Kada napravimo svoj prvi projekat u Android Studiu moramo izabrati u kom jeziku ćemo raditi.To je najčešće izbor između Jave i Kotlina. Možemo to Videti na sledećoj slici."
-            android:textColor="#2A5889"
-            android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.401"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.102" />
-
-        <TextView
-            android:id="@+id/textView16"
-            android:layout_width="348dp"
-            android:layout_height="167dp"
-            android:fontFamily="@font/open_sans"
-            android:text="Ako se odlučimo za javu trebalo bi da se upoznamo sa njom.Programski jezik Java je jedan od najpoznatijih i najpopularnijih programskih jezika a dizajniran je za upotrebu sa Java platformom među ostalog."
-            android:textColor="#2A5889"
-            android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.404"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent" />
 
         <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Kada napravimo svoj prvi projekat u Android Studiu moramo izabrati u kom jeziku ćemo raditi.To je najčešće izbor između Jave i Kotlina. Možemo to Videti na sledećoj slici."
+            android:textColor="#2A5889"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView16"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Ako se odlučimo za javu trebalo bi da se upoznamo sa njom.Programski jezik Java je jedan od najpoznatijih i najpopularnijih programskih jezika a dizajniran je za upotrebu sa Java platformom među ostalog."
+            android:textColor="#2A5889"
+            android:textSize="18dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView11" />
+
+        <TextView
             android:id="@+id/textView17"
-            android:layout_width="342dp"
-            android:layout_height="155dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Java je poznata i po svom logo-u sa šoljicom kafe. Ako želite dublje da se upoznate sa njom i vidite njene čari ne bi škodilo pročitati par knjiga koje bi vam pomogle u dubljem razumevanju Jave"
             android:textColor="#2A5889"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.393"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.646" />
+            app:layout_constraintTop_toBottomOf="@+id/textView16" />
 
         <TextView
             android:id="@+id/textView18"
-            android:layout_width="345dp"
-            android:layout_height="203dp"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
             android:fontFamily="@font/open_sans"
             android:text="Neke od Knjiga koje bi vam preporučio o Javi u radu u Android Studiu su 'Learn Java the Easy Way' od autora Bryson Payne i 'Learn Android Studio 4, 2nd Edition' od autora Ted Hagosa.Mi ćemo Javu spominjati dalje kada budemo odradili jednostavan primer aplikacije u Android Studiu"
             android:textColor="#2A5889"
             android:textSize="18dp"
-            app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.41"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.949" />
+            app:layout_constraintTop_toBottomOf="@+id/imageView13" />
 
         <TextView
             android:id="@+id/textView23"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="1064dp"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
             android:text="Završeno"
             android:textColor="#2A5889"
             android:textSize="23dp"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.836"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent" />
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
 
         <ToggleButton
             android:id="@+id/toggleButtonDrawable1"
             android:layout_width="23dp"
             android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
             android:height="38dp"
             android:background="@drawable/checkded"
             android:checked="true"
@@ -124,33 +133,27 @@
             android:textOn=""
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.953"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView18"
             app:layout_constraintVertical_bias="0.993" />
 
         <ImageView
             android:id="@+id/imageView11"
             android:layout_width="362dp"
             android:layout_height="242dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="15dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.41"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.256"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
             app:srcCompat="@drawable/java" />
 
         <ImageView
             android:id="@+id/imageView13"
             android:layout_width="305dp"
             android:layout_height="126dp"
-            app:layout_constraintBottom_toBottomOf="parent"
+            android:layout_marginTop="15dp"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintHorizontal_bias="0.378"
             app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintTop_toTopOf="parent"
-            app:layout_constraintVertical_bias="0.751"
+            app:layout_constraintTop_toBottomOf="@+id/textView17"
             app:srcCompat="@drawable/javalogo" />
 
     </androidx.constraintlayout.widget.ConstraintLayout>

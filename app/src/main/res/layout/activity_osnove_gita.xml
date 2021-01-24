@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="5dp"
+        android:scrollbars="none"
+        tools:context=".OsnoveGita">
+
+        <ImageButton
+            android:id="@+id/imageButton7"
+            android:layout_width="28dp"
+            android:layout_height="28dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/ic_back"
+            android:src="@drawable/ic_back"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView14"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="17dp"
+            android:fontFamily="@font/poppins_bold"
+            android:text="Osnove Git-a"
+            android:textColor="#2A5889"
+            android:textSize="22sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Šta je uopšte Git? Veoma je važno shvatiti ovu lekciju, jer ako razumijete šta je Git i osnove njegovog funkcionisanja, onda će vam biti mnogo jednostavnije da koristite Git efikasno.
+Git je VCS koji je razvijen za svrhe razvoja Linuks jezgra, i kasnije je postao nezavisan sistem.
+Glavna razlika između Gita i drugih VCS-ova (uključujući Subversion i ekipu) je način na koji Git posmatra podatke. Konceptualno, većina drugih sistema čuva podatke kao listu promjena fajlova.
+Umesto toga, Git gleda na podatke kao da su skup snimaka (snapshots) minijaturnog sistema. Svaki put kada izvršite komit (commit), ili sačuvate stanje svog projekta na Gitu, on u suštini uzima sliku onoga kako svi vaši fajlovi izgledaju u tom trenutku i pamti referencu na taj snimak. Da bi održao efikasnost, ako se fajl nije promijenio, Git ne čuva fajl ponovo, već samo vezu ka prethodnom identičnom fajlu koji je već sačuvao. Git na podatke gleda kao na tok snimaka.\n\nU Gitu se nad svim računa kontrolna suma (checksum) pre nego što se sačuva, a onda se stvarima pristupa koristeći tu kontrolnu sumu. To znači da je nemoguće promeniti sadržaj bilo kog fajla ili direktorijuma a da Git ne zna za to. Ova funkcionalnost je ugrađena u Git u najnižim slojevima i integralna je njegovoj filozofiji. Ne možete da izgubite podatke tokom tranzita ili da dođe do oštećenja fajlova a da Git to ne primeti."
+            android:textColor="#2A5889"
+            android:textSize="18sp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView14" />
+
+        <TextView
+            android:id="@+id/textView19"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginStart="25dp"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="15dp"
+            android:layout_marginEnd="25dp"
+            android:layout_marginRight="25dp"
+            android:fontFamily="@font/open_sans"
+            android:text="Sada obratite pažnju. Ovo je glavna stvar koju treba zapamtiti o Gitu ako želite da ostatak učenja teče kako valja. Git ima tri glavna stanja u kojima se vaši fajlovi mogu naći: komitovano, modifikovano i stejdžovano. Komitovano znači da su podaci smešteni u lokalnoj bazi podataka na sigurnom. Modifikovano znači da ste promenili fajl ali da ga još uvek niste komitovali u bazu podataka. Stejdžovano znači da ste označili modifikovani fajl da se u svom trenutnom stanju uključi u sledeći komit snimka koji budete napravili.\n\nOvo nas vodi do tri glavne sekcije Git projekta: Git direktorijum, radni direktorijum i stejdž.\n\nGit direktorijum je mesto gde Git čuva sve metapodatke i objektnu bazu podataka za vaš projekat. Ovo je najvažniji deo Gita, i to je ono što se kopira kada klonirate repozitorijum sa drugog računara.\n\nRadni direktorijum je jedan čekaut (checkout) jedne verzije projekta. Ovi fajlovi se dovlače iz kompresovane baze podataka iz Git direktorijuma i smeštaju se na disk da biste ih koristili i modifikovali.\n\nStejdž je fajl koji se obično nalazi u Git direktorijumu i čuva informacije o tome šta će se uključiti u sledeći komit. Ponekad se naziva “indeks”, ali se često koristi i naziv stejdž.\n\nOsnovni tok rada sa Gitom ide nekako ovako:\n\n1. Modifikujete fajlove u radnom direktorijumu.\n\n2.Stejdžujete fajlove, odnosno dodajete njihove snimke na stejdž.\n\n3.Komitujete, što znači da uzmete fajlove u onoj verziji u kojoj su bili kada ste ih dodali na stejdž i te snimke trajno smeštate u Git direktorijum.\n\nAko se neka verzija fajla nalazi u Git direktorijumu, smatra se komitovanom. Ako je modifikovana i onda dodata na stejdž, ona je stejdžovana. A ako se promenila od čekauta ali nije stejdžovana, onda je modifikovana."
+            android:textColor="#2A5889"
+
+            android:textSize="18sp"
+
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/imageView7" />
+
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView15"
+            android:src="@drawable/ic_git_logo" />
+
+        <TextView
+            android:id="@+id/textView23"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="15dp"
+            android:layout_marginRight="15dp"
+            android:layout_marginBottom="17dp"
+            android:text="Završeno"
+            android:textColor="#2A5889"
+            android:textSize="23dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/toggleButtonDrawable1" />
+
+        <ToggleButton
+            android:id="@+id/toggleButtonDrawable1"
+            android:layout_width="23dp"
+            android:layout_height="23dp"
+            android:layout_marginTop="35dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="20dp"
+            android:height="38dp"
+            android:background="@drawable/checkded"
+            android:checked="true"
+            android:textOff=""
+            android:textOn=""
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

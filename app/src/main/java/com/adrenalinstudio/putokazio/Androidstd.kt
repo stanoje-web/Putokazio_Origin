@@ -6,6 +6,7 @@ import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageButton
+import android.widget.TextView
 
 class Androidstd : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
@@ -18,7 +19,7 @@ class Androidstd : AppCompatActivity() {
         val savedBoolean4=sharedPreferences.getBoolean("kotlin", false)
         val savedBoolean5=sharedPreferences.getBoolean("gradle", false)
         val savedBoolean6=sharedPreferences.getBoolean("ukratko2", false)
-        val podesavanje=findViewById<Button>(R.id.button20)
+        var podesavanje=findViewById<Button>(R.id.button20)
         val cfg=findViewById<Button>(R.id.button21)
         val javabt=findViewById<Button>(R.id.button22)
         val kotlin=findViewById<Button>(R.id.button6)
@@ -57,6 +58,7 @@ class Androidstd : AppCompatActivity() {
         }
         if(savedBoolean==true) {
             podesavanje.setBackgroundColor(Color.rgb(89, 171, 43))
+          
         }
         else{
 
@@ -95,5 +97,9 @@ class Androidstd : AppCompatActivity() {
             val intent=Intent(this,androidale::class.java)
             startActivity(intent)
         }
+    }
+    override fun onBackPressed() {
+        val intent=Intent(this,androidale::class.java)
+        startActivity(intent)
     }
 }

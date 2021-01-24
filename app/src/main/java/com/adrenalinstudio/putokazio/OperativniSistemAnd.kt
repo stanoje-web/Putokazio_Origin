@@ -30,4 +30,8 @@ class OperativniSistemAnd : AppCompatActivity() {
 
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,UvodUAndroid::class.java)
+        startActivity(intent)
+    }
 }

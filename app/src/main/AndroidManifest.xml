@@ -4,49 +4,343 @@
 
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/logo"
+        android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/logo"
+        android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Putokazio">
-        <activity android:name="com.adrenalinstudio.putokazio.Ukratko5"></activity>
-        <activity android:name="com.adrenalinstudio.putokazio.Ukratko4" />
-        <activity android:name="com.adrenalinstudio.putokazio.AplikacijeZaObjavljivanje" />
-        <activity android:name="com.adrenalinstudio.putokazio.KonfiguracijaAplikacije" />
-        <activity android:name="com.adrenalinstudio.putokazio.PripremaAplikacije" />
-        <activity android:name="com.adrenalinstudio.putokazio.DistribuiranjeAplikacije" />
-        <activity android:name="com.adrenalinstudio.putokazio.Ukratko3" />
-        <activity android:name="com.adrenalinstudio.putokazio.FunkcijaIntent" />
-        <activity android:name="com.adrenalinstudio.putokazio.KakoUbacitiSadrzaj" />
-        <activity android:name="com.adrenalinstudio.putokazio.NapraviAVD" />
-        <activity android:name="com.adrenalinstudio.putokazio.NapraviProjekat" />
-        <activity android:name="com.adrenalinstudio.putokazio.NapraviAplikaciju" />
-        <activity android:name="com.adrenalinstudio.putokazio.Ukratko2" />
-        <activity android:name="com.adrenalinstudio.putokazio.Gradle" />
-        <activity android:name="com.adrenalinstudio.putokazio.Kotlin" />
-        <activity android:name="com.adrenalinstudio.putokazio.Java" />
-        <activity android:name="com.adrenalinstudio.putokazio.CfgAnd" />
-        <activity android:name="com.adrenalinstudio.putokazio.Podesavanja" />
-        <activity android:name="com.adrenalinstudio.putokazio.Androidstd" />
-        <activity android:name="com.adrenalinstudio.putokazio.Ukratko" />
-        <activity android:name="com.adrenalinstudio.putokazio.OperativniSistemAnd" />
-        <activity android:name="com.adrenalinstudio.putokazio.IstorijaAnd" />
-        <activity android:name=".istorija1" />
-        <activity android:name=".istorijaandroida3" />
-        <activity android:name=".istorijaAndroida" />
-        <activity android:name="com.adrenalinstudio.putokazio.androidale" />
-        <activity android:name=".IstorijaAndroida" />
-        <activity android:name="com.adrenalinstudio.putokazio.UvodUAndroid" />
-        <activity android:name=".Android" />
-        <activity android:name="com.adrenalinstudio.putokazio.SveMape2" />
-        <activity android:name="com.adrenalinstudio.putokazio.KakoRadiInternet" />
-        <activity android:name="com.adrenalinstudio.putokazio.Internet2" />
-        <activity android:name="com.adrenalinstudio.putokazio.FrontendDevelop" />
-        <activity android:name=".frontenddeveloping" />
-        <activity android:name="com.adrenalinstudio.putokazio.NovaMapa" />
-        <activity android:name="com.adrenalinstudio.putokazio.Sacuvane_mape" />
-        <activity android:name="com.adrenalinstudio.putokazio.SveMape" />
-        <activity android:name="com.adrenalinstudio.putokazio.HomeActivitz" />
+        <activity android:name=".Literatura"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".PravljenjeRepozitorijuma"
+            android:noHistory="true"
+            android:screenOrientation="portrait"/>
+        <activity
+            android:name=".GitPodesavanja"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KomandnaLinija"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OsnoveGita"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OKontroliVerzije"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Git"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Internet3"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Backend"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HTML"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CSS"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CSharp"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".sql"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".php"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Informacije"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Vakcine"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KakoSeZastititi"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".KakoSeZastiti" />
+        <activity
+            android:name=".OKoronaVirusu"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Covid19"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Hosting"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Domen"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".dns"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Browser"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HTTP"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KonfiguracijskiMeni"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UredjajizaSkladistenje"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrilagodjavanjeKernela"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NajnovijiKernel"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ColorChooser"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GIMP"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PrikazivaciSlika"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PDFViewer"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LinuxovKernel"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".GrafickiProgrami"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".ViEditor"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UpravljanjeFajlovima"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KreiranjeFajlova"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NavigacioneKomande"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".InterfejsKomandneLinije"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LinuxDanas"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IstorijaLinuxa"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".TvoracLinuxa"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".LinuxServeri"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Olinuxu"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko5"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko4"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".AplikacijeZaObjavljivanje"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KonfiguracijaAplikacije"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".PripremaAplikacije"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".DistribuiranjeAplikacije"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko3"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FunkcijaIntent"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KakoUbacitiSadrzaj"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NapraviAVD"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NapraviProjekat"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NapraviAplikaciju"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko2"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Gradle"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Kotlin"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Java"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".CfgAnd"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Podesavanja"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Androidstd"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Ukratko"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".OperativniSistemAnd"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IstorijaAnd"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".istorija1"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".istorijaandroida3"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".istorijaAndroida"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".androidale"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".IstorijaAndroida"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".UvodUAndroid"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Android"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SveMape2"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".KakoRadiInternet"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Internet2"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".FrontendDevelop"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".frontenddeveloping"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".NovaMapa"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".Sacuvane_mape"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".SveMape"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".HomeActivitz"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
+        <activity android:name=".JavaScriptSintaksa" />
+        <activity
+            android:name=".JavaScript"
+            android:noHistory="true"
+            android:screenOrientation="portrait" />
         <activity
             android:name=".Home"
             android:label="@string/title_activity_home"
@@ -59,7 +353,7 @@
             android:name=".MainActivity2"
             android:label="@string/title_activity_main2"
             android:theme="@style/Theme.Putokazio.NoActionBar" />
-        <activity android:name="com.adrenalinstudio.putokazio.MainActivity">
+        <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

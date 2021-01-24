@@ -86,4 +86,8 @@ class NapraviAplikaciju : AppCompatActivity() {
             startActivity(intent)
         }
     }
+    override fun onBackPressed() {
+        val intent=Intent(this,androidale::class.java)
+        startActivity(intent)
+    }
 }
