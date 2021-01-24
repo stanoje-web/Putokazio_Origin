@@ -886,7 +886,7 @@ class SveMape : AppCompatActivity() {
                 }
                 else if (p0.equals("backend") or p0.equals("Backend")or p0.equals("Backend developer")or p0.equals("backend developer")) {
 
-                    val intent = Intent(this@SveMape,JavaScript::class.java)
+                    val intent = Intent(this@SveMape,Backend::class.java)
                     startActivity(intent)
 
                 }
