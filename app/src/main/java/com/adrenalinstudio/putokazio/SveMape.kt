@@ -30,13 +30,11 @@ class SveMape : AppCompatActivity() {
         val progressBar4 = findViewById<ProgressBar>(R.id.progressBar2)
         val progressBar5 = findViewById<ProgressBar>(R.id.progressBar6)
         val progressBar6 = findViewById<ProgressBar>(R.id.progressBar5)
-        val progressBar7 = findViewById<ProgressBar>(R.id.progressBar7)
         val textView70 = findViewById<TextView>(R.id.textView3)
         val textView68 = findViewById<TextView>(R.id.textView11)
         val textView67 = findViewById<TextView>(R.id.textView16)
         val textView66 = findViewById<TextView>(R.id.textView20)
         val textView65 = findViewById<TextView>(R.id.textView7)
-        val textView64 = findViewById<TextView>(R.id.textView22)
         val searchView1 = findViewById<SearchView>(R.id.searchView)
         val frontendbut = findViewById<Button>(R.id.button)
         val androidbut = findViewById<Button>(R.id.button1)
@@ -84,9 +82,6 @@ class SveMape : AppCompatActivity() {
         textView66.text = "$progr4%"
         progressBar6.progress = progr5
         textView65.text = "$progr5%"
-        progressBar7.progress = progr6
-        textView64.text = "$progr6%"
-
         imageButton.setOnClickListener {
             val intent3 = Intent(this, HomeActivitz::class.java)
             startActivity(intent3)
